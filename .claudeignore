@@ -1,0 +1,8 @@
+.specs/
+.claude/hooks/
+.claude/workflows/
+.claude/runtime/
+node_modules/
+dist/
+coverage/
+.git/
