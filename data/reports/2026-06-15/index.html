@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 分析日报 — 2026-06-15</title>
+  <style>
+    /* 全局样式 */
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 960px; margin: 0 auto; padding: 20px; color: #1a1a2e; background: #f8f9fa; }
+    h1 { font-size: 2em; border-bottom: 3px solid #3B82F6; padding-bottom: 10px; }
+    h2 { font-size: 1.5em; color: #1e40af; margin-top: 30px; border-bottom: 1px solid #e5e7eb; }
+    h3 { color: #374151; }
+
+    /* 概览面板 */
+    .dashboard { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0; }
+    .dash-card { background: white; border-radius: 8px; padding: 16px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .dash-card .num { font-size: 2em; font-weight: bold; color: #3B82F6; }
+    .dash-card .label { font-size: 0.85em; color: #6B7280; }
+
+    /* Top 3 焦点事件卡片 */
+    .top-event { background: white; border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #3B82F6; }
+    .top-event.rank-1 { border-left-color: #F59E0B; }
+    .top-event.rank-2 { border-left-color: #9CA3AF; }
+    .top-event.rank-3 { border-left-color: #D97706; }
+    .top-event .rank { font-size: 1.5em; font-weight: bold; }
+    .top-event .sig { display: inline-block; background: #3B82F6; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+    .top-event .meta { color: #6B7280; font-size: 0.9em; }
+
+    /* 图表容器 */
+    .chart-container { background: white; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .chart-container svg { max-width: 100%; height: auto; }
+    .chart-container h3 { text-align: left; }
+
+    /* 趋势卡片 */
+    .trend-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0; }
+    .trend-card { background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .trend-card .dim { font-weight: bold; color: #1e40af; }
+    .trend-card .conf { display: inline-block; background: #059669; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
+
+    /* 深度分析 */
+    .deep-analysis { background: white; border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+    /* 风险/机会 */
+    .risk-high { border-left: 4px solid #DC2626; padding: 8px 16px; margin: 8px 0; background: #FEF2F2; border-radius: 4px; }
+    .opportunity { border-left: 4px solid #059669; padding: 8px 16px; margin: 8px 0; background: #ECFDF5; border-radius: 4px; }
+
+    /* 附录表格 */
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; background: white; border-radius: 8px; overflow: hidden; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    th { background: #F3F4F6; font-weight: 600; }
+
+    /* 页脚 */
+    .footer { text-align: center; color: #9CA3AF; font-size: 0.85em; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <h1>🤖 AI 分析日报 — 2026-06-15</h1>
+
+  <!-- 概览面板 -->
+  
+    <div class="dashboard">
+      <div class="dash-card"><div class="num">10</div><div class="label">处理新闻</div></div>
+      <div class="dash-card"><div class="num">10+0+0</div><div class="label">情感分布 (正/中/负)</div></div>
+      <div class="dash-card"><div class="num">0</div><div class="label">风险条目</div></div>
+      <div class="dash-card"><div class="num">1</div><div class="label">话题覆盖</div></div>
+    </div>
+
+  <!-- Top 3 焦点事件 -->
+  <h2>🔥 Top 3 焦点事件</h2>
+  
+    <div class="top-event rank-1">
+      <div class="rank">🥇 AI Model Releases</div>
+      <span class="sig">重要性: 9/10</span>
+      <div class="meta">关联实体: OpenAI</div>
+      <p>Major AI model releases</p>
+    </div>
+    <div class="top-event rank-2">
+      <div class="rank">🥈 AI Regulation Updates</div>
+      <span class="sig">重要性: 8/10</span>
+      <div class="meta">关联实体: OpenAI</div>
+      <p>Safety frameworks advancing</p>
+    </div>
+    <div class="top-event rank-3">
+      <div class="rank">🥉 Enterprise AI Growth</div>
+      <span class="sig">重要性: 7/10</span>
+      <div class="meta">关联实体: NVIDIA</div>
+      <p>Open source ecosystem expanding</p>
+    </div>
+
+  <!-- 图表: 情感分布 -->
+  <div class="chart-container">
+    <h3>情感分布</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }
+    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }
+    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }
+    .axis { stroke: #D1D5DB; stroke-width: 2; }
+  </style>
+  <text class="title" x="300" y="40" text-anchor="middle">情感分布 — 2026-06-15</text>
+  <path d="M 300.00 130.00 A 120 120 0 1 1 300.00 130.00 L 300.00 190.00 A 60 60 0 1 0 300.00 190.00 Z" fill="#059669" />
+  <text class="value" x="300" y="242" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">N=10</text>
+  <text class="note" x="300" y="262" text-anchor="middle" font-size="12">条</text>
+  <rect x="430" y="150" width="12" height="12" rx="2" fill="#059669" />
+  <text class="label" x="450" y="160">正面 (10)</text>
+  <rect x="430" y="180" width="12" height="12" rx="2" fill="#6B7280" />
+  <text class="label" x="450" y="190">中性 (0)</text>
+  <rect x="430" y="210" width="12" height="12" rx="2" fill="#DC2626" />
+  <text class="label" x="450" y="220">负面 (0)</text>
+  <text class="note" x="300" y="480" text-anchor="middle">数据来源: Daily AI Insight Engine — 2026-06-15</text>
+</svg>
+  </div>
+
+  <!-- 图表: 趋势雷达 -->
+  <div class="chart-container">
+    <h3>四维趋势</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }
+    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }
+    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }
+    .axis { stroke: #D1D5DB; stroke-width: 2; }
+  </style>
+  <text class="title" x="300" y="40" text-anchor="middle">四维趋势雷达 — 2026-06-15</text>
+  <polygon class="grid" points="300.0,250.0 350.0,300.0 300.0,350.0 250.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,200.0 400.0,300.0 300.0,400.0 200.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,150.0 450.0,300.0 300.0,450.0 150.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,100.0 500.0,300.0 300.0,500.0 100.0,300.0" fill="none" />
+  <line class="axis" x1="300" y1="300" x2="300.0" y2="100.0" />
+  <line class="axis" x1="300" y1="300" x2="500.0" y2="300.0" />
+  <line class="axis" x1="300" y1="300" x2="300.0" y2="500.0" />
+  <line class="axis" x1="300" y1="300" x2="100.0" y2="300.0" />
+  <text class="label" x="300.0" y="80.0" text-anchor="middle" font-weight="bold" font-size="14">技术</text>
+  <text class="label" x="520.0" y="300.0" text-anchor="start" font-weight="bold" font-size="14">应用</text>
+  <text class="label" x="300.0" y="520.0" text-anchor="middle" font-weight="bold" font-size="14">政策</text>
+  <text class="label" x="80.0" y="300.0" text-anchor="end" font-weight="bold" font-size="14">资本</text>
+  <polygon points="300.0,130.0 460.0,300.0 300.0,450.0 160.0,300.0" fill="rgba(59, 130, 246, 0.2)" stroke="#3B82F6" stroke-width="2" />
+  <text class="value" x="300.0" y="118.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#3B82F6">0.85</text>
+  <text class="value" x="472.0" y="300.0" text-anchor="start" font-size="13" font-weight="bold" fill="#3B82F6">0.80</text>
+  <text class="value" x="300.0" y="462.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#3B82F6">0.75</text>
+  <text class="value" x="148.0" y="300.0" text-anchor="end" font-size="13" font-weight="bold" fill="#3B82F6">0.70</text>
+  <text class="note" x="300" y="580" text-anchor="middle">数据来源: Daily AI Insight Engine — 2026-06-15</text>
+</svg>
+  </div>
+
+  <!-- 深度分析 -->
+  <h2>📝 深度分析</h2>
+  
+    <div class="deep-analysis">
+      <h3>AI Model Releases</h3>
+      <p><strong>背景:</strong> Multiple AI companies released significant model updates.</p>
+      <p><strong>短期影响:</strong> Industry acceleration</p>
+      <p><strong>中期影响:</strong> Competitive shift</p>
+      <p><strong>影响方:</strong> AI companies, Enterprise customers</p>
+      <ul><li>GPT-5 release</li><li>Gemini 3 breakthrough</li></ul>
+      <p><strong>相关事件:</strong> Safety framework updates</p>
+      <p><strong>专家观点:</strong> A step change in AI capability.</p>
+      <p><strong>参考来源:</strong> ref-001; ref-002</p>
+    </div>
+    <div class="deep-analysis">
+      <h3>AI Regulation Updates</h3>
+      <p><strong>背景:</strong> Multiple AI companies released significant model updates.</p>
+      <p><strong>短期影响:</strong> Industry acceleration</p>
+      <p><strong>中期影响:</strong> Competitive shift</p>
+      <p><strong>影响方:</strong> AI companies, Enterprise customers</p>
+      <ul><li>GPT-5 release</li><li>Gemini 3 breakthrough</li></ul>
+      <p><strong>相关事件:</strong> Safety framework updates</p>
+      <p><strong>专家观点:</strong> A step change in AI capability.</p>
+      <p><strong>参考来源:</strong> ref-001; ref-002</p>
+    </div>
+    <div class="deep-analysis">
+      <h3>Enterprise AI Growth</h3>
+      <p><strong>背景:</strong> Multiple AI companies released significant model updates.</p>
+      <p><strong>短期影响:</strong> Industry acceleration</p>
+      <p><strong>中期影响:</strong> Competitive shift</p>
+      <p><strong>影响方:</strong> AI companies, Enterprise customers</p>
+      <ul><li>GPT-5 release</li><li>Gemini 3 breakthrough</li></ul>
+      <p><strong>相关事件:</strong> Safety framework updates</p>
+      <p><strong>专家观点:</strong> A step change in AI capability.</p>
+      <p><strong>参考来源:</strong> ref-001; ref-002</p>
+    </div>
+
+  <!-- 趋势推演 -->
+  <h2>📈 趋势推演</h2>
+  <div class="trend-grid">
+    
+    <div class="trend-card">
+      <div class="dim">技术</div>
+      <span class="conf">可信度: 85%</span>
+      <p>AI reasoning advances</p>
+      <ul><li>GPT-5 benchmarks</li></ul>
+    </div>
+    <div class="trend-card">
+      <div class="dim">应用</div>
+      <span class="conf">可信度: 80%</span>
+      <p>Enterprise AI adoption</p>
+      <ul><li>Open-source growth</li></ul>
+    </div>
+    <div class="trend-card">
+      <div class="dim">政策</div>
+      <span class="conf">可信度: 75%</span>
+      <p>Safety regulation convergence</p>
+      <ul><li>Safety frameworks</li></ul>
+    </div>
+    <div class="trend-card">
+      <div class="dim">资本</div>
+      <span class="conf">可信度: 70%</span>
+      <p>AI infrastructure investment</p>
+      <ul><li>Chip race</li></ul>
+    </div>
+  </div>
+  <p><strong>整体叙事:</strong> AI industry advancing rapidly.</p>
+
+  <!-- 风险与机会 -->
+  <h2>⚠️ 风险与机会</h2>
+  <h3>风险</h3>
+    <div class="risk-high" style="border-left: 4px solid #F59E0B; padding: 8px 16px; margin: 8px 0; background: #FEF2F2; border-radius: 4px;">
+      <strong>[HIGH]</strong> Regulatory fragmentation
+      <br><small>概率: 中 | 类型: 系统性 | 建议: Monitor</small>
+    </div><h3>机会</h3>
+    <div class="opportunity">
+      <strong>Open-source AI adoption</strong>
+      <br><small>类别: 技术 | 时间窗口: 短期 | 依据: Cost-effective</small>
+    </div>
+
+  <!-- 附录: 数据索引 -->
+  <h2>📎 附录: 数据索引</h2>
+  
+    <table>
+      <thead>
+        <tr><th>标题</th><th>来源</th></tr>
+      </thead>
+      <tbody>
+        
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+    <tr>
+      <td>Test Article</td>
+      <td><a href="https://techcrunch.com/test" target="_blank" rel="noopener">TechCrunch</a></td>
+    </tr>
+      </tbody>
+    </table>
+
+  <div class="footer">
+    <p>Generated by Daily AI Insight Engine — 2026-06-15</p>
+    <p>数据来源: 科技媒体、官方渠道、聚合平台 | 分析由 AI 辅助生成，仅供参考</p>
+  </div>
+
+</body>
+</html>

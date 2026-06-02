@@ -1,0 +1,38 @@
+[
+  {
+    "id": "forbes-20260601-001",
+    "title": "Autonomous Vehicle Collision Raises Questions About AI Safety Testing",
+    "content": "An autonomous vehicle operated by a major ride-sharing company was involved in a serious collision yesterday, raising new questions about the adequacy of AI safety testing protocols. Preliminary investigations suggest the vehicle's perception system failed to identify a pedestrian in low-light conditions. The incident marks the third reported case of an autonomous vehicle failing to detect vulnerable road users this year. Regulators have launched a full investigation and temporarily suspended the company's operating license.",
+    "source": {
+      "name": "Forbes",
+      "type": "tech_media",
+      "url": "https://www.forbes.com/sites/autonomous-vehicle-crash-2026"
+    },
+    "published_at": "2026-06-01T06:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ft-20260601-002",
+    "title": "EU Imposes Record Fine on AI Company for GDPR Violations in Training Data",
+    "content": "The European Commission has imposed a record-breaking fine of 400 million euros on a major AI company for violations of the General Data Protection Regulation related to training data collection. The investigation found that the company had scraped personal data from social media platforms without obtaining proper consent, affecting millions of users across the European Union. The ruling sets a significant precedent for data privacy compliance in AI model training, and is expected to trigger similar investigations into other AI companies.",
+    "source": {
+      "name": "Financial Times",
+      "type": "tech_media",
+      "url": "https://www.ft.com/content/eu-fine-ai-gdpr-violation-2026"
+    },
+    "published_at": "2026-06-01T07:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "wp-20260601-003",
+    "title": "AI-Generated Disinformation Campaign Targets European Elections",
+    "content": "A sophisticated AI-generated disinformation campaign has been uncovered targeting the upcoming European parliamentary elections. Security researchers identified over 50,000 AI-generated social media accounts spreading divisive content across multiple platforms. The accounts used advanced language models to generate convincing political messages tailored to local audiences and languages. Experts warn that this represents a new frontier in information warfare, where AI enables大规模 personalized disinformation at an unprecedented scale and speed.",
+    "source": {
+      "name": "Washington Post",
+      "type": "tech_media",
+      "url": "https://www.washingtonpost.com/technology/ai-disinformation-european-elections-2026"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "mixed"
+  }
+]

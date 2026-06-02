@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tc-20260601-001",
+    "title": "OpenAI Releases GPT-5 with Advanced Reasoning Capabilities",
+    "content": "OpenAI has officially released GPT-5, its latest large language model featuring advanced reasoning capabilities, multi-modal processing, and a 2-million token context window. The model demonstrates significant improvements in mathematical reasoning, code generation, and scientific research tasks. CEO Sam Altman described it as 'a fundamental leap forward in AI capability' during the launch event in San Francisco.",
+    "source": {
+      "name": "TechCrunch",
+      "type": "tech_media",
+      "url": "https://techcrunch.com/2026/06/01/openai-gpt5-release"
+    },
+    "published_at": "2026-06-01T09:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ob-20260601-002",
+    "title": "OpenAI Announces New Safety Framework for Frontier Models",
+    "content": "OpenAI today published its updated Safety Framework for frontier AI models, introducing a new tiered evaluation system that requires models to pass rigorous adversarial testing before deployment. The framework mandates third-party audits, continuous red-teaming, and real-time monitoring for all models exceeding certain capability thresholds. This marks a significant shift toward proactive safety governance.",
+    "source": {
+      "name": "OpenAI Blog",
+      "type": "official",
+      "url": "https://openai.com/blog/safety-framework-2026"
+    },
+    "published_at": "2026-06-01T12:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ka-20260601-003",
+    "title": "Thread: My Experience Testing Claude's New Code Generation Abilities",
+    "content": "I spent the weekend testing the new Claude model for complex code generation tasks. The results are impressive but nuanced. For Python data pipelines, it produced production-ready code about 80% of the time. For Rust systems programming, it struggled with ownership concepts in non-trivial scenarios. The biggest surprise was its ability to debug its own mistakes when given the error messages. A thread 1/12",
+    "source": {
+      "name": "Karen AI",
+      "type": "social_media",
+      "url": "https://twitter.com/karen_ai/status/1234567890"
+    },
+    "published_at": "2026-06-01T14:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "hn-20260601-004",
+    "title": "Show HN: Open-Source Alternative to GitHub Copilot for Enterprise",
+    "content": "We built an open-source code completion engine that runs entirely on-premise with no data leaving the enterprise network. It supports multiple backends including local LLMs, cloud APIs, or hybrid setups. The system indexes the entire codebase to provide context-aware suggestions. Performance benchmarks show it matches Copilot on 80% of common tasks, and exceeds it on domain-specific code patterns. All under Apache 2.0 license.",
+    "source": {
+      "name": "Hacker News",
+      "type": "aggregator",
+      "url": "https://news.ycombinator.com/item?id=12345678"
+    },
+    "published_at": "2026-06-01T08:15:00Z",
+    "language": "en"
+  },
+  {
+    "id": "36kr-20260601-005",
+    "title": "深度解读：百度文心大模型 5.0 发布，多项指标超越 GPT-4",
+    "content": "百度在今天举办的 AI 开发者大会上正式发布了文心大模型 5.0 版本。新版本在中文理解能力、多模态生成效率和推理速度上均有大幅提升。据官方公布的评测数据，文心 5.0 在 C-Eval、MMLU 等基准测试中的得分已全面超越 GPT-4，部分指标接近 GPT-5 水平。百度同时宣布将开放部分模型能力的 API 接口。",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com/p/123456789"
+    },
+    "published_at": "2026-06-01T10:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "gov-20260601-006",
+    "title": "国家互联网信息办公室发布生成式 AI 服务管理办法修订草案",
+    "content": "国家互联网信息办公室今日发布了《生成式人工智能服务管理办法（修订草案征求意见稿）》，向社会公开征求意见。新办法进一步明确了生成式 AI 服务提供者的安全评估义务、数据使用边界和用户权益保护措施。其中重点新增了对 AI 生成内容标识要求的细化规定，以及针对基础模型训练数据合规性的审查要求。征求意见截止日期为 2026 年 7 月 15 日。",
+    "source": {
+      "name": "中国政府网",
+      "type": "official",
+      "url": "https://www.gov.cn/zhengce/20260601/content_ai_regulation"
+    },
+    "published_at": "2026-06-01T07:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "zhihu-20260601-007",
+    "title": "如何评价 Anthropic 新发布的 Constitutional AI 2.0 对齐技术？",
+    "content": "Anthropic 刚刚发布了一篇新论文，提出了 Constitutional AI 2.0 框架。与第一版相比，新方法引入了动态宪法机制，即 AI 系统能够根据应用场景和用户需求动态调整行为准则，而不是固守一套静态规则。实验表明，该方法在保持安全性的同时显著减少了过度拒绝（over-refusal）的情况。知乎上的 AI 研究者们对这一方向普遍持积极态度，但也有人担心动态规则可能引入新的对齐风险。",
+    "source": {
+      "name": "知乎",
+      "type": "social_media",
+      "url": "https://www.zhihu.com/question/123456789"
+    },
+    "published_at": "2026-06-01T15:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "aw-20260601-008",
+    "title": "Weekly Digest: World Models, AI Chip Race, and EU AI Act Enforcement",
+    "content": "This week in AI: Meta published a paper on learning world models from video alone, enabling agents to understand physics without explicit training. On the hardware front, both NVIDIA and AMD announced new AI accelerator chips targeting the data center market. Meanwhile, the European Commission announced the first enforcement actions under the AI Act, targeting several high-risk AI applications that failed to meet compliance deadlines. The convergence of model advances and regulatory pressure is reshaping the industry landscape.",
+    "source": {
+      "name": "AI Weekly",
+      "type": "aggregator",
+      "url": "https://aiweekly.com/issues/2026-06-01"
+    },
+    "published_at": "2026-06-01T16:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "verge-20260601-009",
+    "title": "Google DeepMind's Gemini 3 Achieves Breakthrough in Scientific Discovery",
+    "content": "Google DeepMind unveiled Gemini 3, a new AI system that autonomously designs novel protein structures with potential applications in drug discovery. The system successfully generated 15 previously unknown protein configurations, three of which were validated in wet-lab experiments. This represents a major step toward AI-driven scientific discovery, reducing the typical research timeline from years to weeks. The company plans to open-source the model weights for academic research.",
+    "source": {
+      "name": "The Verge",
+      "type": "tech_media",
+      "url": "https://www.theverge.com/2026/6/1/gemini-3-deepmind-protein-discovery"
+    },
+    "published_at": "2026-06-01T11:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ga-20260601-010",
+    "title": "Google AI Announces Responsible AI Grant Program for Global Researchers",
+    "content": "Google AI today launched a new 50 million dollar Responsible AI Research Grant Program aimed at supporting global researchers working on AI safety, fairness, transparency, and accountability. The program will fund projects ranging from technical alignment research to policy-oriented studies. Each grant ranges from 100,000 to 500,000 dollars, with a particular focus on researchers from underrepresented regions and institutions. Applications open until August 1, 2026.",
+    "source": {
+      "name": "Google AI Blog",
+      "type": "official",
+      "url": "https://ai.googleblog.com/2026/06/responsible-ai-grant-program"
+    },
+    "published_at": "2026-06-01T13:00:00Z",
+    "language": "en"
+  }
+]

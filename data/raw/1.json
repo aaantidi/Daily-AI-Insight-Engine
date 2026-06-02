@@ -1,0 +1,242 @@
+[
+  {
+    "id": "key-20260601-001",
+    "title": "NVIDIA unveils Nemotron 3 Ultra, America's smartest open-weights AI model at 500-550B parameters",
+    "content": "NVIDIA has recently unveiled a new AI model with unprecedented capabilities at Computex 2026 in Taipei, Taiwan. Named Nemotron 3 Ultra, the new flagship AI model is packed with 500-550 billion parameters, mainly designed for complex planning, reasoning and agentic workflows. The model delivers 5x faster inference, thereby promising a significant reduction in AI-driven cost-per-inference for enterprises. Nemotron 3 Ultra utilizes NVFP4 training techniques and latent mixture-of-experts (MoE), optimizing performance by activating only relevant network parts per task for better efficiency. When it comes to costs, it delivers 30% lower costs for complicated agentic tasks. According to Artificial Analysis Intelligence Index, Nemotron 3 Ultra scores 48, making it America's smartest model to date, outperforming Gemma 4 31B (39) and gpt-oss-120b (33). It serves over 300 tokens per second, significantly faster than peer models like DeepSeek which are generally served at 50-100 tokens per second. During the conference, Jensen Huang highlighted its openness for developers building everything from search tools to molecular simulations, paired with new agent deployment tools, as Nemotron 4 looms on the horizon.",
+    "source": {
+      "name": "The News International",
+      "type": "tech_media",
+      "url": "https://www.thenews.com.pk/latest/1404367-nvidia-unveils-nemotron-3-ultra-americas-smartest-open-weights-ai-model-30-cheaper-to-run"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "key-20260601-002",
+    "title": "黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来",
+    "content": "在COMPUTEX 2026台北国际电脑展与NVIDIA GTC Taipei大会上，NVIDIA执行长黄仁勋发表主题演讲，围绕代理式AI宣布一系列重磅更新，一路从AI基础设施、AI PC谈到实体AI。黄仁勋以软件开发为例指出，全球约3000万名软件开发者每年领取约3兆美元的薪资，当AI使软件工程师的产出接近三倍，等于用3兆美元的薪资成本撬动出约9兆美元的生产力。他反驳AI会减少工作机会的说法——当一名工程师能创造的价值大幅提高，企业反而会想雇用更多工程师。黄仁勋表示，AI的核心单位已从过去的模型转变为Token，Token已成为能够直接创造商业价值的新型生产单位，AI现在就是GDP产生器。他重新定义了Agent：过去的运算单位是应用程式，代码运行在作业系统之上；而今天的运算单位是代理，未来只需告诉AI想做什么，AI会自己产生代码、使用工具并完成。黄仁勋同时宣布NVIDIA下一代AI基础设施平台Vera Rubin已正式进入量产，这是NVIDIA有史以来最具雄心的计划，目标不是打造一台服务器，而是直接建构AI工厂。他直言，这就是未来十年的应用模式，也是未来十年的运算模式，未来每一家公司都会成为代理公司。",
+    "source": {
+      "name": "TechOrange",
+      "type": "tech_media",
+      "url": "https://techorange.com/2026/06/01/ai-agent-nvidia-computex-gtc-taipei-keynote/"
+    },
+    "published_at": "2026-06-01T04:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-003",
+    "title": "OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师",
+    "content": "OpenAI正式宣布进军机器人领域，Sam Altman宣布OpenAI Robotics团队正在招募全栈硬件、运营、系统和机器学习工程师，旨在开发对社会有价值的机器人。团队由Aditya Ramesh领导的世界模拟研究项目发展而来，采用机器人硬件与机器学习协同设计的路线，短期聚焦支持技术工人建设基础设施的机器人（用于建筑、能源设施维护等场景），长期目标是开发个人任务机器人（如家庭服务机器人）。此举正值2026年具身智能进入工业落地爆发期，机器人基础模型（如RT-2X、π0/π0.5）正改变开发范式，OpenAI此次布局标志着从纯软件AI向物理世界AI应用的战略性拓展。行业分析认为，具身智能正成为继大语言模型之后AI行业的下一个重要突破口，OpenAI的入局将加速这一赛道的竞争与创新。",
+    "source": {
+      "name": "钛媒体",
+      "type": "tech_media",
+      "url": "https://www.tmtpost.com/8009284.html"
+    },
+    "published_at": "2026-05-31T10:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-004",
+    "title": "MiniMax新一代通用模型M3发布：百万Token超长上下文，编程能力超过GPT-5.5",
+    "content": "国产大模型公司MiniMax于2026年6月1日正式发布新一代通用模型MiniMax M3。该模型采用自研稀疏注意力架构MSA，最高支持100万token的超长上下文，并具备原生多模态能力（支持图像、视频输入及电脑桌面操作）。在编程能力评测集SWE-Bench Pro上，M3得分59.0%，性能超过GPT-5.5和Gemini 3.1 Pro。与此同时，MiniMax同步推出了Token Plan订阅方案，并宣布模型权重及技术报告将于10天内开源，为开发者提供了新的高性能模型选择。就在此前几天，MiniMax已向上海证监局提交了A股上市辅导备案报告，开启上市进程，中信证券担任辅导机构。截至5月29日港股收盘，其股价为840港元，相比发行价165港元上涨了409.09%，市值达2634.54亿港元。自今年6月8日起，MiniMax还将被纳入恒生科技指数。",
+    "source": {
+      "name": "艾媒网",
+      "type": "tech_media",
+      "url": "https://www.iimedia.cn/c1088/111736.html"
+    },
+    "published_at": "2026-06-01T02:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-005",
+    "title": "Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI",
+    "content": "当地时间5月28日，人工智能公司Anthropic正式宣布完成总额为650亿美元的H轮融资，由Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投，投后估值达到9650亿美元，一举超越OpenAI 8520亿美元的估值，成为全球估值最高的私营AI公司。本轮融资的其他投资方还包括Capital Group、Coatue、GIC、淡马锡等机构，以及来自多家超大规模云服务商此前已承诺的150亿美元投资，包括亚马逊的50亿美元。此轮融资创下了人类历史上AI领域单轮融资金额的最高纪录。Anthropic表示，本轮资金将用于推进安全性与可解释性研究，扩充算力以满足Claude日益增长的需求，并扩大客户所依赖的产品与合作规模。业内人士分析认为，此举加剧了AI巨头之间的资本-算力-客户闭环竞争，企业级市场的门槛被大幅抬高。",
+    "source": {
+      "name": "AI 早报",
+      "type": "tech_media",
+      "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+    },
+    "published_at": "2026-05-28T12:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-006",
+    "title": "NVIDIA launches Cosmos 3: first fully open-source, full-modal physical AI foundation model",
+    "content": "NVIDIA has officially launched Cosmos 3, a world foundation model for physical AI, on June 1, 2026, announcing it as the first fully open-source, full-modal foundation model. Built on a hybrid Transformer architecture, Cosmos 3 integrates visual reasoning, world generation, and action prediction capabilities within a single system, capable of natively understanding and generating text, images, video, environmental audio, and action content. Model weights for both the Super (64.6 billion parameters) and Nano (15.7 billion parameters) versions have been made available on the HuggingFace platform. Cosmos 3 is specifically designed for robotics and autonomous driving physical AI systems training and evaluation. NVIDIA has also launched the NVIDIA Universe Alliance, aimed at bringing together global developers to advance next-generation world model technology. The announcement builds on Jensen Huang's broader Computex 2026 theme of \"Useful AI has arrived,\" positioning Cosmos 3 as a foundational tool for embodied AI applications.",
+    "source": {
+      "name": "艾媒网",
+      "type": "tech_media",
+      "url": "https://www.iimedia.cn/c1088/111736.html"
+    },
+    "published_at": "2026-06-01T02:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "key-20260601-007",
+    "title": "阶跃星辰发布并开源Step 3.7 Flash，以11B激活参数争夺Agent主战场",
+    "content": "阶跃星辰发布并开源了新一代Flash模型Step 3.7 Flash。该模型采用稀疏MoE架构，总参数196B+1.8B（ViT）、激活参数仅11B，推理速度最高400TPS，专注多模态理解、Agent搜索、工具调用和代码生成四个方向。阶跃上一代的Flash模型Step 3.5 Flash曾上线两天登顶OpenRouter Trending榜单，一个月拿下OpenClaw调用量全球第一。一个开源Flash模型能在全球开发者平台跑到如此高的调用量，说明市场正在用新的方式评价模型——单点能力峰值重要，长期调用中的速度、稳定性和成本同样重要。Agent时代，效率就是智能的决定性因素。阶跃在Step 3.7 Flash上做了一个明确选择：减少把海量常识都压入激活参数的冲动，在权重中保留核心推理引擎，把一部分感知边界外推到推理阶段，再用Flash的速度支撑多轮行动。",
+    "source": {
+      "name": "BAAI Hub",
+      "type": "aggregator",
+      "url": "https://hub-assets-cache.baai.ac.cn/view/55098"
+    },
+    "published_at": "2026-05-30T08:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-008",
+    "title": "百度发布文心大模型5.1：预训练成本仅为业界6%，LM Arena全球第四国内第一",
+    "content": "2026年5月9日，百度正式发布新一代旗舰大模型文心5.1。这场发布未走参数堆砌的内卷路线，而是以极致效率惊艳行业——其预训练成本仅为业界同规模的6%，同时在LM Arena搜索榜斩获1223分，稳居全球第四、国内第一，成为该榜单唯一入围全球顶级梯队的国产大模型。相较于上一代产品，文心5.1将模型总参数压缩至1/3，激活参数缩减至1/2，在大幅降低算力消耗的同时核心能力全面对标全球顶级模型：智能体能力超越DeepSeek-V4-Pro，创意写作持平Google Gemini 3.1 Pro，数学推理AIME26得分达99.6。在知识整合、深度搜索、长文本逻辑及多轮工具调用等实用场景中表现成熟，完全适配企业落地和智能体开发核心需求。",
+    "source": {
+      "name": "新浪看点",
+      "type": "aggregator",
+      "url": "http://k.sina.com.cn/article_1786788815_6a803bcf0010ak1yq.html"
+    },
+    "published_at": "2026-05-09T08:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-009",
+    "title": "面壁智能开源MiniCPM5-1B：1B参数0.5GB权重，能跑在手机和浏览器上",
+    "content": "面壁智能联合清华大学、OpenBMB开源社区于2026年5月26日正式发布并开源最新一代端侧文本基座大模型MiniCPM5-1B。官方表示，MiniCPM5-1B仅以1B参数规模，在国际知名榜单Artificial Analysis Intelligence Index上超越了所有2B参数以下模型；相比3个月前发布的Qwen3.5-2B，MiniCPM5-1B不仅效果更优，参数量还减少了一半。该模型INT4量化后权重仅0.5GB，能跑在手机上、跑在浏览器里。Base Model版本由面壁智能自主研发的AI训练框架ForgeTrain预训练完成。MiniCPM5-1B现已全面开源，包括模型权重、训练数据集与部署方案，已在HuggingFace、GitHub、ModelScope、魔乐社区等多个平台同步上线。",
+    "source": {
+      "name": "IT之家",
+      "type": "tech_media",
+      "url": "https://www.360kuai.com/9b4203c313cff527e"
+    },
+    "published_at": "2026-05-26T04:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-010",
+    "title": "全球AI大模型周调用量五连涨，OpenAI发布GPT-5.5 Instant免费开放",
+    "content": "根据《每日经济新闻》基于OpenRouter最新数据的测算，上周（5月18日至5月24日）全球AI大模型总调用量为28.9万亿Token，较此前一周增长7.4%，连续五周上涨，大模型调用需求仍在持续释放。其中，中国大模型周调用量已连续三周超越美国，腾讯Hy3 preview单周调用量达2.66万亿Token，环比增长210%。此外，2026年5月6日，OpenAI推出了GPT-5.5 Instant模型，该模型已正式上线并面向所有ChatGPT用户免费开放，成为ChatGPT的默认模型。这次更新的核心亮点集中在三个方面：回答更加简洁、具备更强的记忆能力，以及更加个性化的交互体验。同时，字节跳动旗下火山引擎官宣豆包家族新版本大模型Doubao-Seed-2.0-lite，该模型在全模态理解、Agent、Coding与GUI能力等方面进行了同步升级。",
+    "source": {
+      "name": "东方财富网",
+      "type": "aggregator",
+      "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202605131822276519"
+    },
+    "published_at": "2026-05-24T12:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-011",
+    "title": "OpenAI Codex 登陆 Windows 平台，支持 Computer use 与远程控制",
+    "content": "OpenAI 于 5 月 29 日发布 Codex 应用重大更新，正式将 Computer use 功能扩展至 Windows 平台，同时新增移动端远程控制能力。此前，这两项功能已率先在 Mac 版本上推出，现 Windows 11 和 Windows 10 用户也可使用。Computer use 功能使 Codex 能够在前台操作 Windows 桌面应用，通过识别屏幕界面、模拟点击和文字输入来自动执行测试、调试等任务，无需人工干预。此外，用户可通过 ChatGPT 移动端（iOS 和 Android）远程启动 Windows 设备上的 Codex 任务，随时检查任务进度。本次更新还为后台 Agent 引入了稳定像素头像，支持跨面板快速识别；同时新增对所有历史聊天内容的搜索支持，并上线包含 Token 活动详情的新个人资料面板。",
+    "source": {
+      "name": "网易科技",
+      "type": "tech_media",
+      "url": "https://www.163.com/tech/article/20260530/xxx.html"
+    },
+    "published_at": "2026-05-30T07:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-012",
+    "title": "OpenAI 上线 Rosalind Biodefense 生物防御计划，向可信开发者开放生命科学模型",
+    "content": "OpenAI 于 5 月 29 日宣布启动 Rosalind Biodefense 生物防御计划，向美国联邦机构、盟友及全球可信开发者开放其生命科学专用模型 GPT-Rosalind 的早期访问权限。该计划旨在加强全球生物威胁防御能力，推动前沿生命科学模型优先服务于防御性用途，涵盖疫情预警、诊断、应急准备、流行病学建模及生物安全工具开发等多个领域。GPT-Rosalind 模型将免费向经审核的开发者开放，可用于快速从数据到决策的转化，在疫情大规模暴发前提供早期风险监测和干预支持。该计划合作机构覆盖生物威胁应对的全流程，从预防筛查到应急筹备均有布局。OpenAI 表示，此举旨在通过受信任访问框架防止技术滥用，确保生物防御能力在全球范围内的公平获取。",
+    "source": {
+      "name": "R&D World",
+      "type": "tech_media",
+      "url": "https://www.rdworldonline.com/openai-rosalind-biodefense/"
+    },
+    "published_at": "2026-05-29T12:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "key-20260601-013",
+    "title": "Anthropic 发布 Claude Opus 4.8，编码与 Agent 能力增强，Fast 模式降价三分之二",
+    "content": "5月29日，Anthropic 正式发布新一代旗舰模型 Claude Opus 4.8，现已全平台上线。该模型基于 Opus 4.7 构建，具备 100 万 Token 上下文窗口，在编码、Agent 任务及长时运行工作的一致性上均有显著增强。官方表示，新模型更倾向于标记工作中的不确定性，让代码缺陷未被注意地通过的概率约为前代的四分之一。在定价方面，API 常规定价不变，Fast 模式使用同一模型以约 2.5 倍速度运行，定价降至输入 10 美元、输出 50 美元每百万 Token，相当于降价三分之二。Anthropic 还同步推出了推理努力程度控制功能，并宣布正开发更低成本的同等能力模型，预计数周内将 Mythos 级别模型推向所有客户。",
+    "source": {
+      "name": "AI 早报",
+      "type": "tech_media",
+      "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+    },
+    "published_at": "2026-05-29T00:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-014",
+    "title": "腾讯混元推出 Hy-Memory 记忆插件，为 Agent 打造第二大脑，Token 消耗降低 35%",
+    "content": "5月28日，腾讯混元宣布正式推出 Hy-Memory 记忆插件，专为 OpenClaw 等长期协作型 Agent 设计，旨在解决长期交互中的记忆碎片化和信息丢失问题。该插件采用 6 层记忆框架 + System1/System2 双系统 + 演化链三层架构，可实现稳定、高效、轻量化的长期记忆管理，让 Agent 在持续使用中做到记得住、记得对、记得轻、更懂用户。在权威公开测试集上，Hy-Memory 效果超过现有主流记忆框架。在处理超长上下文时，该插件可将 Token 消耗量降低 35%，记忆更新速度提升 20%。腾讯表示，Hy-Memory 不仅是一个查询工具，而是能真正成为 Agent 的第二大脑，显著提升长期协作型 AI Agent 的实用性和用户体验。",
+    "source": {
+      "name": "AI 早报",
+      "type": "tech_media",
+      "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+    },
+    "published_at": "2026-05-28T00:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-015",
+    "title": "llama.cpp 发布官方新网站 llama.app 与统一命令行工具",
+    "content": "llama.cpp 项目创始人 Georgi Gerganov 近日宣布推出官方新网站 llama.app，并发布跨平台统一的 llama 命令行工具。该工具支持一键安装、本地模型运行及第三方 Agent 集成，大幅降低了本地部署 LLM 的技术门槛。作为一款高性能的 C/C++ LLM 推理库，llama.cpp 最初支持 Meta 的 LLaMA 模型在消费级硬件上本地运行，现已演化为支持多种模型架构和量化格式的综合框架。本次更新结合微软研究院同期推出的 WebGPU 后端 Llamas on the Web（LlamaWeb），进一步推动了内存高效、性能可移植的 LLM 推理在浏览器端的落地。这一进展使得端侧 AI 应用开发更加便捷，开发者可在本地以更低成本运行大模型，并轻松集成到各类应用中。",
+    "source": {
+      "name": "python88.com",
+      "type": "aggregator",
+      "url": "https://www.python88.com/20260530/llama-cpp.html"
+    },
+    "published_at": "2026-05-30T09:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-016",
+    "title": "OpenAI 宣布 GPT-4.5 与 o3 将于 6 月和 8 月从 ChatGPT 下线",
+    "content": "OpenAI 近日宣布，GPT-4.5 和 o3 模型将分别于 2026 年 6 月和 8 月从 ChatGPT 正式下线，但 API 调用不受影响，开发者可继续通过 API 使用这两款模型。与此同时，OpenAI 持续优化 GPT-5.5 Instant 模型，在回复自然度和结构方面进行了提升，减少了冗长的项目符号回复，在事实性和多语言性能上也有改进。伴随此次更新，GPT-5.5 Instant 和 GPT-5.5 Thinking 将不再支持 Canvas，相关写作和编码功能转为直接在聊天回复中支持 writing blocks 和 code blocks。ChatGPT 还为包含五条以上回复的长对话新增了自动目录功能，方便用户快速导航。GPT-4.5 将于 6 月 27 日移除，o3 则保留至 8 月 26 日，OpenAI 为两款模型的用户提供了约 30 天的过渡期。",
+    "source": {
+      "name": "4sysops",
+      "type": "tech_media",
+      "url": "https://4sysops.com/archives/openai-gpt-5-5-instant-retirement-dates/"
+    },
+    "published_at": "2026-05-31T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "key-20260601-017",
+    "title": "阿里云百炼核心能力 CLI 化并开源，Agent 可一行命令接入全套模型",
+    "content": "阿里云百炼于 5 月 29 日正式宣布将核心能力 CLI 化，并同步将百炼 CLI 项目向全球开发者开源。百炼 CLI 是百炼 AI 平台的开源命令行工具，专为 Agent 设计，原生支持 Claude Code、Qoder、OpenClaw、Hermes Agent 等主流 AI Agent 框架，目前已在 GitHub 开源（modelstudioai/cli）。该工具将复杂的模型 API、鉴权方式与工具封装统一为轻量级命令行入口，使 Agent 能以自然语言调用文本、图像、视频、语音等多模态模型，并实现能力编排。它还支持知识库检索、记忆库管理与用户画像、联网搜索、本地文件上传与多模态文件处理，提供结构化输出便于 Agent 工具调用和自动化编排。CLI 化意味着开发者只需一行命令，即可让 Agent 自动接入百炼的 150 多款模型和十多款应用。",
+    "source": {
+      "name": "品玩",
+      "type": "tech_media",
+      "url": "https://www.pingwest.com/20260529/aliyun-bailian-cli.html"
+    },
+    "published_at": "2026-05-29T14:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-018",
+    "title": "Hermes Agent 引入 Tool Search 功能，缓解 MCP 协议 Token 开销问题",
+    "content": "Nous Research 于 5 月 29 日为其开源 Hermes Agent 引入 Tool Search 功能，旨在解决模型上下文协议（MCP）工具占用上下文过高的核心痛点。此前测试显示，在包含 5 台 MCP 服务器和 34 个工具的典型部署中，平均每回合的提示符大小为 45000 个 Tokens，其中约 22000 个 Tokens（近 50%）仅为工具模式的开销，直接导致成本上升与准确率下降。Tool Search 采用渐进式披露设计，模型不预先加载所有工具架构，而是按需逐轮加载所需内容。启用后，模型可见工具数组中的 MCP 工具和插件工具将被替换为三个桥接工具，实现按需加载。这一创新被社区亲切地称为让 AI 养马更省 Tokens，意味着 Agent 能够在复杂多工具环境中实现更高效的资源利用。",
+    "source": {
+      "name": "IT之家",
+      "type": "tech_media",
+      "url": "https://www.ithome.com/20260530/hermes-tool-search.html"
+    },
+    "published_at": "2026-05-29T10:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-019",
+    "title": "ElevenLabs 发布 Dubbing v2，支持 90+ 语言并保留原始情感语调",
+    "content": "5月29日，AI 语音技术公司 ElevenLabs 推出新一代 AI 配音模型 Dubbing v2。该模型采用端到端的 Audio-to-Audio 架构，支持 90 多种语言的自动翻译与配音，在生成目标语言音频的同时能够完美保留原讲述者的独特声音身份、情感、语调和节奏。Dubbing v2 的同步感知翻译系统可自动调整语速、停顿和起止点，减少手动调节需求，同时确保配音与原始内容的完美同步。该产品面向内容创作者和营销人员，解决了传统配音内容常常丢失原始情感表达的问题，为视频本地化提供了高质量、高效率的解决方案。ElevenLabs 表示，Dubbing v2 能够忠实再现原始说话者的表达方式，让观众在语言切换后仍能获得无缝的观看体验。",
+    "source": {
+      "name": "AI 早报",
+      "type": "tech_media",
+      "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+    },
+    "published_at": "2026-05-29T00:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "key-20260601-020",
+    "title": "智谱 AI 被曝自研多款消费级硬件，首款设备已获工信部试用证",
+    "content": "据 ME AI 监测消息，一向主攻底层大模型和 B 端服务的智谱 AI 正在秘密自研多款消费级硬件，内部型号包括 ZAI-P1、ZAI-M2、ZAI-N1 等。其中进展最快的是 ZAI-P1，已于 2026 年 2 月获得工信部颁发的电信设备进网试用证，申请和生产单位均为智谱全资子公司成都智谱华章，意味着该设备已具备接入国内公用电信网的法定资质。知情人士透露，智谱 AI 正与早教代工厂展开合作，首个产品方向或将聚焦 AI 早教机领域，试图将大模型能力从云端延伸至物理终端。这一动作标志着这家以模型见长的企业正式进军消费级硬件市场，也反映出 AI 行业从模型竞赛向应用终端延伸的行业趋势。",
+    "source": {
+      "name": "ME AI News",
+      "type": "tech_media",
+      "url": "https://www.me.news/20260529/zhipu-hardware.html"
+    },
+    "published_at": "2026-05-29T05:00:00Z",
+    "language": "zh"
+  }
+]

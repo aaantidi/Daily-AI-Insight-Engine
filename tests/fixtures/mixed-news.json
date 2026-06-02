@@ -1,0 +1,121 @@
+[
+  {
+    "id": "tc-20260601-001",
+    "title": "OpenAI Releases GPT-5 with Advanced Reasoning Capabilities",
+    "content": "OpenAI has officially released GPT-5, its latest large language model featuring advanced reasoning capabilities, multi-modal processing, and a 2-million token context window. The model demonstrates significant improvements in mathematical reasoning, code generation, and scientific research tasks. CEO Sam Altman described it as 'a fundamental leap forward in AI capability' during the launch event in San Francisco.",
+    "source": {
+      "name": "TechCrunch",
+      "type": "tech_media",
+      "url": "https://techcrunch.com/2026/06/01/openai-gpt5-release"
+    },
+    "published_at": "2026-06-01T09:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ob-20260601-002",
+    "title": "OpenAI Announces New Safety Framework for Frontier Models",
+    "content": "OpenAI today published its updated Safety Framework for frontier AI models, introducing a new tiered evaluation system that requires models to pass rigorous adversarial testing before deployment. The framework mandates third-party audits, continuous red-teaming, and real-time monitoring for all models exceeding certain capability thresholds.",
+    "source": {
+      "name": "OpenAI Blog",
+      "type": "official",
+      "url": "https://openai.com/blog/safety-framework-2026"
+    },
+    "published_at": "2026-06-01T12:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ka-20260601-003",
+    "title": "Thread: My Experience Testing Claude's New Code Generation Abilities",
+    "content": "I spent the weekend testing the new Claude model for complex code generation tasks. The results are impressive but nuanced. For Python data pipelines, it produced production-ready code about 80% of the time. For Rust systems programming, it struggled with ownership concepts in complex scenarios. The biggest surprise was its ability to debug its own mistakes when given error messages.",
+    "source": {
+      "name": "Karen AI",
+      "type": "social_media",
+      "url": "https://twitter.com/karen_ai/status/1234567890"
+    },
+    "published_at": "2026-06-01T14:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "36kr-20260601-004",
+    "title": "深度解读：百度文心大模型 5.0 发布，多项指标超越 GPT-4",
+    "content": "百度在今天举办的 AI 开发者大会上正式发布了文心大模型 5.0 版本。新版本在中文理解能力、多模态生成效率和推理速度上均有大幅提升。据官方公布的评测数据，文心 5.0 在 C-Eval、MMLU 等基准测试中的得分已全面超越 GPT-4，部分指标接近 GPT-5 水平。百度同时宣布将开放部分模型能力的 API 接口。",
+    "source": {
+      "name": "36氪",
+      "type": "tech_media",
+      "url": "https://36kr.com/p/123456789"
+    },
+    "published_at": "2026-06-01T10:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "gov-20260601-005",
+    "title": "国家互联网信息办公室发布生成式 AI 服务管理办法修订草案",
+    "content": "国家互联网信息办公室今日发布了《生成式人工智能服务管理办法（修订草案征求意见稿）》，向社会公开征求意见。新办法进一步明确了生成式 AI 服务提供者的安全评估义务、数据使用边界和用户权益保护措施。其中重点新增了对 AI 生成内容标识要求的细化规定，以及针对基础模型训练数据合规性的审查要求。",
+    "source": {
+      "name": "中国政府网",
+      "type": "official",
+      "url": "https://www.gov.cn/zhengce/20260601/content_ai_regulation"
+    },
+    "published_at": "2026-06-01T07:00:00Z",
+    "language": "zh"
+  },
+  {
+    "id": "aw-20260601-006",
+    "title": "Weekly Digest: World Models, AI Chip Race, and EU AI Act Enforcement",
+    "content": "This week in AI: Meta published a paper on learning world models from video alone, enabling agents to understand physics without explicit training. On the hardware front, both NVIDIA and AMD announced new AI accelerator chips. Meanwhile, the European Commission announced the first enforcement actions under the AI Act, targeting several high-risk AI applications that failed to meet compliance deadlines.",
+    "source": {
+      "name": "AI Weekly",
+      "type": "aggregator",
+      "url": "https://aiweekly.com/issues/2026-06-01"
+    },
+    "published_at": "2026-06-01T16:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "verge-20260601-007",
+    "title": "Google DeepMind's Gemini 3 Achieves Breakthrough in Scientific Discovery",
+    "content": "Google DeepMind unveiled Gemini 3, a new AI system that autonomously designs novel protein structures with potential applications in drug discovery. The system successfully generated 15 previously unknown protein configurations, three of which were validated in wet-lab experiments. This represents a major step toward AI-driven scientific discovery, reducing the typical research timeline from years to weeks.",
+    "source": {
+      "name": "The Verge",
+      "type": "tech_media",
+      "url": "https://www.theverge.com/2026/6/1/gemini-3-deepmind-protein-discovery"
+    },
+    "published_at": "2026-06-01T11:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "ga-20260601-008",
+    "title": "Google AI Announces Responsible AI Grant Program for Global Researchers",
+    "content": "Google AI today launched a new 50 million dollar Responsible AI Research Grant Program aimed at supporting global researchers working on AI safety, fairness, transparency, and accountability. The program will fund projects ranging from technical alignment research to policy-oriented studies. Each grant ranges from 100,000 to 500,000 dollars, with a focus on underrepresented regions.",
+    "source": {
+      "name": "Google AI Blog",
+      "type": "official",
+      "url": "https://ai.googleblog.com/2026/06/responsible-ai-grant-program"
+    },
+    "published_at": "2026-06-01T13:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-009",
+    "title": "Short Content Entry",
+    "content": "Too short.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/9"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-010",
+    "content": "This entry is missing the title field entirely and should be marked as skipped by the validation logic during the ingestion phase of the pipeline processing.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/10"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "id": "invalid-20260601-001",
+    "title": "",
+    "content": "This entry has an empty title field, which should be considered invalid because the title must be a non-empty string for proper identification and display purposes.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/1"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-002",
+    "content": "This item is missing the title field entirely. According to the validation rules, any entry without a required title field should be marked as skipped.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/2"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-003",
+    "title": "Content Too Short",
+    "content": "Short content.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/3"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-004",
+    "title": "Missing Source URL",
+    "content": "This entry has a source object but the url field is missing. According to validation rules, the source must contain name, type, and url as required fields for proper attribution and traceability of news items.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-005",
+    "title": "Empty Content Field",
+    "content": "",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/5"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-006",
+    "title": "Missing Published Date",
+    "content": "This entry does not have a published_at field. The published_at field is required for proper chronological ordering and date-based filtering of news items in the pipeline.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/6"
+    },
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-007",
+    "title": "Null Source Object",
+    "content": "This entry has a null source field instead of a valid source object. The source is a required field that must contain name, type, and url for proper categorization.",
+    "source": null,
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "invalid-20260601-008",
+    "title": "Invalid Language Value",
+    "content": "This entry has an invalid language field value 'de' which is not in the allowed set of zh, en, or mixed. The validation schema should reject this entry during processing.",
+    "source": {
+      "name": "Test Source",
+      "type": "tech_media",
+      "url": "https://example.com/news/8"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "de"
+  }
+]
