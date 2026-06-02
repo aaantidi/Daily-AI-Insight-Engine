@@ -5,3 +5,4 @@ coverage/
 Thumbs.db
 .env
 data/reports/
+.claude/runtime/
