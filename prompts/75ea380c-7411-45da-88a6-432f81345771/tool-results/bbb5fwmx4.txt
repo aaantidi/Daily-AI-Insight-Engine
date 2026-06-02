@@ -1,0 +1,774 @@
+[2026-06-01T11:46:13.999Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T11:46:13.999Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T11:46:14.000Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T11:46:14.000Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"data/raw"}
+[2026-06-01T11:46:14.000Z] [INFO] [INGEST] Loaded 20 raw items from 1 file(s)
+[2026-06-01T11:46:14.000Z] [INFO] [INGEST] Phase 1 complete: Loaded 20 raw item(s) from reader
+[2026-06-01T11:46:14.000Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T11:46:14.002Z] [INFO] [INGEST] Phase 2 complete: 20 valid, 0 skipped (of 20 total)
+[2026-06-01T11:46:14.003Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T11:46:14.003Z] [INFO] [PIPELINE] INGEST stage completed: 20 valid items
+[2026-06-01T11:46:14.003Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T11:46:14.004Z] [INFO] [PIPELINE] LLMClient initialized (lazy)
+[2026-06-01T11:46:14.004Z] [INFO] [EXTRACT] Starting EXTRACT batch: 20 item(s)
+[2026-06-01T11:46:14.004Z] [INFO] [EXTRACT] Processing batch 1/7 (3 item(s))
+[2026-06-01T11:46:19.087Z] [INFO] [EXTRACT] Processing batch 2/7 (3 item(s))
+[2026-06-01T11:46:29.040Z] [INFO] [EXTRACT] Processing batch 3/7 (3 item(s))
+[2026-06-01T11:46:33.079Z] [INFO] [EXTRACT] Processing batch 4/7 (3 item(s))
+[2026-06-01T11:46:37.105Z] [INFO] [EXTRACT] Processing batch 5/7 (3 item(s))
+[2026-06-01T11:46:47.881Z] [INFO] [EXTRACT] Processing batch 6/7 (3 item(s))
+[2026-06-01T11:46:52.012Z] [INFO] [EXTRACT] Processing batch 7/7 (2 item(s))
+[2026-06-01T11:47:02.497Z] [INFO] [EXTRACT] EXTRACT batch complete: 20/20 extracted successfully
+[2026-06-01T11:47:02.497Z] [INFO] [PIPELINE] EXTRACT stage completed: 20/20 items extracted
+[2026-06-01T11:47:02.497Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T11:47:02.497Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T11:47:02.506Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T11:47:06.135Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T11:47:45.907Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T11:48:00.338Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T11:48:24.749Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T11:48:24.750Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T11:48:24.750Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T11:48:24.750Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T11:48:24.750Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T11:48:24.750Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T11:48:24.750Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T11:48:24.750Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T11:48:24.751Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T11:48:24.751Z] [INFO] [PIPELINE] Pipeline finished in 130752ms — success=true
+{
+  "success": true,
+  "date": "2026-06-01",
+  "stages": {
+    "ingest": {
+      "status": "success",
+      "result": {
+        "valid": [
+          {
+            "id": "key-20260601-001",
+            "title": "NVIDIA unveils Nemotron 3 Ultra, America's smartest open-weights AI model at 500-550B parameters",
+            "content": "NVIDIA has recently unveiled a new AI model with unprecedented capabilities at Computex 2026 in Taipei, Taiwan. Named Nemotron 3 Ultra, the new flagship AI model is packed with 500-550 billion parameters, mainly designed for complex planning, reasoning and agentic workflows. The model delivers 5x faster inference, thereby promising a significant reduction in AI-driven cost-per-inference for enterprises. Nemotron 3 Ultra utilizes NVFP4 training techniques and latent mixture-of-experts (MoE), optimizing performance by activating only relevant network parts per task for better efficiency. When it comes to costs, it delivers 30% lower costs for complicated agentic tasks. According to Artificial Analysis Intelligence Index, Nemotron 3 Ultra scores 48, making it America's smartest model to date, outperforming Gemma 4 31B (39) and gpt-oss-120b (33). It serves over 300 tokens per second, significantly faster than peer models like DeepSeek which are generally served at 50-100 tokens per second. During the conference, Jensen Huang highlighted its openness for developers building everything from search tools to molecular simulations, paired with new agent deployment tools, as Nemotron 4 looms on the horizon.",
+            "source": {
+              "name": "The News International",
+              "type": "tech_media",
+              "url": "https://www.thenews.com.pk/latest/1404367-nvidia-unveils-nemotron-3-ultra-americas-smartest-open-weights-ai-model-30-cheaper-to-run"
+            },
+            "published_at": "2026-06-01T08:00:00Z",
+            "language": "en"
+          },
+          {
+            "id": "key-20260601-002",
+            "title": "黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来",
+            "content": "在COMPUTEX 2026台北国际电脑展与NVIDIA GTC Taipei大会上，NVIDIA执行长黄仁勋发表主题演讲，围绕代理式AI宣布一系列重磅更新，一路从AI基础设施、AI PC谈到实体AI。黄仁勋以软件开发为例指出，全球约3000万名软件开发者每年领取约3兆美元的薪资，当AI使软件工程师的产出接近三倍，等于用3兆美元的薪资成本撬动出约9兆美元的生产力。他反驳AI会减少工作机会的说法——当一名工程师能创造的价值大幅提高，企业反而会想雇用更多工程师。黄仁勋表示，AI的核心单位已从过去的模型转变为Token，Token已成为能够直接创造商业价值的新型生产单位，AI现在就是GDP产生器。他重新定义了Agent：过去的运算单位是应用程式，代码运行在作业系统之上；而今天的运算单位是代理，未来只需告诉AI想做什么，AI会自己产生代码、使用工具并完成。黄仁勋同时宣布NVIDIA下一代AI基础设施平台Vera Rubin已正式进入量产，这是NVIDIA有史以来最具雄心的计划，目标不是打造一台服务器，而是直接建构AI工厂。他直言，这就是未来十年的应用模式，也是未来十年的运算模式，未来每一家公司都会成为代理公司。",
+            "source": {
+              "name": "TechOrange",
+              "type": "tech_media",
+              "url": "https://techorange.com/2026/06/01/ai-agent-nvidia-computex-gtc-taipei-keynote/"
+            },
+            "published_at": "2026-06-01T04:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-003",
+            "title": "OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师",
+            "content": "OpenAI正式宣布进军机器人领域，Sam Altman宣布OpenAI Robotics团队正在招募全栈硬件、运营、系统和机器学习工程师，旨在开发对社会有价值的机器人。团队由Aditya Ramesh领导的世界模拟研究项目发展而来，采用机器人硬件与机器学习协同设计的路线，短期聚焦支持技术工人建设基础设施的机器人（用于建筑、能源设施维护等场景），长期目标是开发个人任务机器人（如家庭服务机器人）。此举正值2026年具身智能进入工业落地爆发期，机器人基础模型（如RT-2X、π0/π0.5）正改变开发范式，OpenAI此次布局标志着从纯软件AI向物理世界AI应用的战略性拓展。行业分析认为，具身智能正成为继大语言模型之后AI行业的下一个重要突破口，OpenAI的入局将加速这一赛道的竞争与创新。",
+            "source": {
+              "name": "钛媒体",
+              "type": "tech_media",
+              "url": "https://www.tmtpost.com/8009284.html"
+            },
+            "published_at": "2026-05-31T10:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-004",
+            "title": "MiniMax新一代通用模型M3发布：百万Token超长上下文，编程能力超过GPT-5.5",
+            "content": "国产大模型公司MiniMax于2026年6月1日正式发布新一代通用模型MiniMax M3。该模型采用自研稀疏注意力架构MSA，最高支持100万token的超长上下文，并具备原生多模态能力（支持图像、视频输入及电脑桌面操作）。在编程能力评测集SWE-Bench Pro上，M3得分59.0%，性能超过GPT-5.5和Gemini 3.1 Pro。与此同时，MiniMax同步推出了Token Plan订阅方案，并宣布模型权重及技术报告将于10天内开源，为开发者提供了新的高性能模型选择。就在此前几天，MiniMax已向上海证监局提交了A股上市辅导备案报告，开启上市进程，中信证券担任辅导机构。截至5月29日港股收盘，其股价为840港元，相比发行价165港元上涨了409.09%，市值达2634.54亿港元。自今年6月8日起，MiniMax还将被纳入恒生科技指数。",
+            "source": {
+              "name": "艾媒网",
+              "type": "tech_media",
+              "url": "https://www.iimedia.cn/c1088/111736.html"
+            },
+            "published_at": "2026-06-01T02:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-005",
+            "title": "Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI",
+            "content": "当地时间5月28日，人工智能公司Anthropic正式宣布完成总额为650亿美元的H轮融资，由Altimeter Capital、Dragoneer、Greenoaks和红杉资本领投，投后估值达到9650亿美元，一举超越OpenAI 8520亿美元的估值，成为全球估值最高的私营AI公司。本轮融资的其他投资方还包括Capital Group、Coatue、GIC、淡马锡等机构，以及来自多家超大规模云服务商此前已承诺的150亿美元投资，包括亚马逊的50亿美元。此轮融资创下了人类历史上AI领域单轮融资金额的最高纪录。Anthropic表示，本轮资金将用于推进安全性与可解释性研究，扩充算力以满足Claude日益增长的需求，并扩大客户所依赖的产品与合作规模。业内人士分析认为，此举加剧了AI巨头之间的资本-算力-客户闭环竞争，企业级市场的门槛被大幅抬高。",
+            "source": {
+              "name": "AI 早报",
+              "type": "tech_media",
+              "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+            },
+            "published_at": "2026-05-28T12:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-006",
+            "title": "NVIDIA launches Cosmos 3: first fully open-source, full-modal physical AI foundation model",
+            "content": "NVIDIA has officially launched Cosmos 3, a world foundation model for physical AI, on June 1, 2026, announcing it as the first fully open-source, full-modal foundation model. Built on a hybrid Transformer architecture, Cosmos 3 integrates visual reasoning, world generation, and action prediction capabilities within a single system, capable of natively understanding and generating text, images, video, environmental audio, and action content. Model weights for both the Super (64.6 billion parameters) and Nano (15.7 billion parameters) versions have been made available on the HuggingFace platform. Cosmos 3 is specifically designed for robotics and autonomous driving physical AI systems training and evaluation. NVIDIA has also launched the NVIDIA Universe Alliance, aimed at bringing together global developers to advance next-generation world model technology. The announcement builds on Jensen Huang's broader Computex 2026 theme of \"Useful AI has arrived,\" positioning Cosmos 3 as a foundational tool for embodied AI applications.",
+            "source": {
+              "name": "艾媒网",
+              "type": "tech_media",
+              "url": "https://www.iimedia.cn/c1088/111736.html"
+            },
+            "published_at": "2026-06-01T02:30:00Z",
+            "language": "en"
+          },
+          {
+            "id": "key-20260601-007",
+            "title": "阶跃星辰发布并开源Step 3.7 Flash，以11B激活参数争夺Agent主战场",
+            "content": "阶跃星辰发布并开源了新一代Flash模型Step 3.7 Flash。该模型采用稀疏MoE架构，总参数196B+1.8B（ViT）、激活参数仅11B，推理速度最高400TPS，专注多模态理解、Agent搜索、工具调用和代码生成四个方向。阶跃上一代的Flash模型Step 3.5 Flash曾上线两天登顶OpenRouter Trending榜单，一个月拿下OpenClaw调用量全球第一。一个开源Flash模型能在全球开发者平台跑到如此高的调用量，说明市场正在用新的方式评价模型——单点能力峰值重要，长期调用中的速度、稳定性和成本同样重要。Agent时代，效率就是智能的决定性因素。阶跃在Step 3.7 Flash上做了一个明确选择：减少把海量常识都压入激活参数的冲动，在权重中保留核心推理引擎，把一部分感知边界外推到推理阶段，再用Flash的速度支撑多轮行动。",
+            "source": {
+              "name": "BAAI Hub",
+              "type": "aggregator",
+              "url": "https://hub-assets-cache.baai.ac.cn/view/55098"
+            },
+            "published_at": "2026-05-30T08:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-008",
+            "title": "百度发布文心大模型5.1：预训练成本仅为业界6%，LM Arena全球第四国内第一",
+            "content": "2026年5月9日，百度正式发布新一代旗舰大模型文心5.1。这场发布未走参数堆砌的内卷路线，而是以极致效率惊艳行业——其预训练成本仅为业界同规模的6%，同时在LM Arena搜索榜斩获1223分，稳居全球第四、国内第一，成为该榜单唯一入围全球顶级梯队的国产大模型。相较于上一代产品，文心5.1将模型总参数压缩至1/3，激活参数缩减至1/2，在大幅降低算力消耗的同时核心能力全面对标全球顶级模型：智能体能力超越DeepSeek-V4-Pro，创意写作持平Google Gemini 3.1 Pro，数学推理AIME26得分达99.6。在知识整合、深度搜索、长文本逻辑及多轮工具调用等实用场景中表现成熟，完全适配企业落地和智能体开发核心需求。",
+            "source": {
+              "name": "新浪看点",
+              "type": "aggregator",
+              "url": "http://k.sina.com.cn/article_1786788815_6a803bcf0010ak1yq.html"
+            },
+            "published_at": "2026-05-09T08:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-009",
+            "title": "面壁智能开源MiniCPM5-1B：1B参数0.5GB权重，能跑在手机和浏览器上",
+            "content": "面壁智能联合清华大学、OpenBMB开源社区于2026年5月26日正式发布并开源最新一代端侧文本基座大模型MiniCPM5-1B。官方表示，MiniCPM5-1B仅以1B参数规模，在国际知名榜单Artificial Analysis Intelligence Index上超越了所有2B参数以下模型；相比3个月前发布的Qwen3.5-2B，MiniCPM5-1B不仅效果更优，参数量还减少了一半。该模型INT4量化后权重仅0.5GB，能跑在手机上、跑在浏览器里。Base Model版本由面壁智能自主研发的AI训练框架ForgeTrain预训练完成。MiniCPM5-1B现已全面开源，包括模型权重、训练数据集与部署方案，已在HuggingFace、GitHub、ModelScope、魔乐社区等多个平台同步上线。",
+            "source": {
+              "name": "IT之家",
+              "type": "tech_media",
+              "url": "https://www.360kuai.com/9b4203c313cff527e"
+            },
+            "published_at": "2026-05-26T04:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-010",
+            "title": "全球AI大模型周调用量五连涨，OpenAI发布GPT-5.5 Instant免费开放",
+            "content": "根据《每日经济新闻》基于OpenRouter最新数据的测算，上周（5月18日至5月24日）全球AI大模型总调用量为28.9万亿Token，较此前一周增长7.4%，连续五周上涨，大模型调用需求仍在持续释放。其中，中国大模型周调用量已连续三周超越美国，腾讯Hy3 preview单周调用量达2.66万亿Token，环比增长210%。此外，2026年5月6日，OpenAI推出了GPT-5.5 Instant模型，该模型已正式上线并面向所有ChatGPT用户免费开放，成为ChatGPT的默认模型。这次更新的核心亮点集中在三个方面：回答更加简洁、具备更强的记忆能力，以及更加个性化的交互体验。同时，字节跳动旗下火山引擎官宣豆包家族新版本大模型Doubao-Seed-2.0-lite，该模型在全模态理解、Agent、Coding与GUI能力等方面进行了同步升级。",
+            "source": {
+              "name": "东方财富网",
+              "type": "aggregator",
+              "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202605131822276519"
+            },
+            "published_at": "2026-05-24T12:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-011",
+            "title": "OpenAI Codex 登陆 Windows 平台，支持 Computer use 与远程控制",
+            "content": "OpenAI 于 5 月 29 日发布 Codex 应用重大更新，正式将 Computer use 功能扩展至 Windows 平台，同时新增移动端远程控制能力。此前，这两项功能已率先在 Mac 版本上推出，现 Windows 11 和 Windows 10 用户也可使用。Computer use 功能使 Codex 能够在前台操作 Windows 桌面应用，通过识别屏幕界面、模拟点击和文字输入来自动执行测试、调试等任务，无需人工干预。此外，用户可通过 ChatGPT 移动端（iOS 和 Android）远程启动 Windows 设备上的 Codex 任务，随时检查任务进度。本次更新还为后台 Agent 引入了稳定像素头像，支持跨面板快速识别；同时新增对所有历史聊天内容的搜索支持，并上线包含 Token 活动详情的新个人资料面板。",
+            "source": {
+              "name": "网易科技",
+              "type": "tech_media",
+              "url": "https://www.163.com/tech/article/20260530/xxx.html"
+            },
+            "published_at": "2026-05-30T07:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-012",
+            "title": "OpenAI 上线 Rosalind Biodefense 生物防御计划，向可信开发者开放生命科学模型",
+            "content": "OpenAI 于 5 月 29 日宣布启动 Rosalind Biodefense 生物防御计划，向美国联邦机构、盟友及全球可信开发者开放其生命科学专用模型 GPT-Rosalind 的早期访问权限。该计划旨在加强全球生物威胁防御能力，推动前沿生命科学模型优先服务于防御性用途，涵盖疫情预警、诊断、应急准备、流行病学建模及生物安全工具开发等多个领域。GPT-Rosalind 模型将免费向经审核的开发者开放，可用于快速从数据到决策的转化，在疫情大规模暴发前提供早期风险监测和干预支持。该计划合作机构覆盖生物威胁应对的全流程，从预防筛查到应急筹备均有布局。OpenAI 表示，此举旨在通过受信任访问框架防止技术滥用，确保生物防御能力在全球范围内的公平获取。",
+            "source": {
+              "name": "R&D World",
+              "type": "tech_media",
+              "url": "https://www.rdworldonline.com/openai-rosalind-biodefense/"
+            },
+            "published_at": "2026-05-29T12:00:00Z",
+            "language": "en"
+          },
+          {
+            "id": "key-20260601-013",
+            "title": "Anthropic 发布 Claude Opus 4.8，编码与 Agent 能力增强，Fast 模式降价三分之二",
+            "content": "5月29日，Anthropic 正式发布新一代旗舰模型 Claude Opus 4.8，现已全平台上线。该模型基于 Opus 4.7 构建，具备 100 万 Token 上下文窗口，在编码、Agent 任务及长时运行工作的一致性上均有显著增强。官方表示，新模型更倾向于标记工作中的不确定性，让代码缺陷未被注意地通过的概率约为前代的四分之一。在定价方面，API 常规定价不变，Fast 模式使用同一模型以约 2.5 倍速度运行，定价降至输入 10 美元、输出 50 美元每百万 Token，相当于降价三分之二。Anthropic 还同步推出了推理努力程度控制功能，并宣布正开发更低成本的同等能力模型，预计数周内将 Mythos 级别模型推向所有客户。",
+            "source": {
+              "name": "AI 早报",
+              "type": "tech_media",
+              "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+            },
+            "published_at": "2026-05-29T00:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-014",
+            "title": "腾讯混元推出 Hy-Memory 记忆插件，为 Agent 打造第二大脑，Token 消耗降低 35%",
+            "content": "5月28日，腾讯混元宣布正式推出 Hy-Memory 记忆插件，专为 OpenClaw 等长期协作型 Agent 设计，旨在解决长期交互中的记忆碎片化和信息丢失问题。该插件采用 6 层记忆框架 + System1/System2 双系统 + 演化链三层架构，可实现稳定、高效、轻量化的长期记忆管理，让 Agent 在持续使用中做到记得住、记得对、记得轻、更懂用户。在权威公开测试集上，Hy-Memory 效果超过现有主流记忆框架。在处理超长上下文时，该插件可将 Token 消耗量降低 35%，记忆更新速度提升 20%。腾讯表示，Hy-Memory 不仅是一个查询工具，而是能真正成为 Agent 的第二大脑，显著提升长期协作型 AI Agent 的实用性和用户体验。",
+            "source": {
+              "name": "AI 早报",
+              "type": "tech_media",
+              "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+            },
+            "published_at": "2026-05-28T00:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-015",
+            "title": "llama.cpp 发布官方新网站 llama.app 与统一命令行工具",
+            "content": "llama.cpp 项目创始人 Georgi Gerganov 近日宣布推出官方新网站 llama.app，并发布跨平台统一的 llama 命令行工具。该工具支持一键安装、本地模型运行及第三方 Agent 集成，大幅降低了本地部署 LLM 的技术门槛。作为一款高性能的 C/C++ LLM 推理库，llama.cpp 最初支持 Meta 的 LLaMA 模型在消费级硬件上本地运行，现已演化为支持多种模型架构和量化格式的综合框架。本次更新结合微软研究院同期推出的 WebGPU 后端 Llamas on the Web（LlamaWeb），进一步推动了内存高效、性能可移植的 LLM 推理在浏览器端的落地。这一进展使得端侧 AI 应用开发更加便捷，开发者可在本地以更低成本运行大模型，并轻松集成到各类应用中。",
+            "source": {
+              "name": "python88.com",
+              "type": "aggregator",
+              "url": "https://www.python88.com/20260530/llama-cpp.html"
+            },
+            "published_at": "2026-05-30T09:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-016",
+            "title": "OpenAI 宣布 GPT-4.5 与 o3 将于 6 月和 8 月从 ChatGPT 下线",
+            "content": "OpenAI 近日宣布，GPT-4.5 和 o3 模型将分别于 2026 年 6 月和 8 月从 ChatGPT 正式下线，但 API 调用不受影响，开发者可继续通过 API 使用这两款模型。与此同时，OpenAI 持续优化 GPT-5.5 Instant 模型，在回复自然度和结构方面进行了提升，减少了冗长的项目符号回复，在事实性和多语言性能上也有改进。伴随此次更新，GPT-5.5 Instant 和 GPT-5.5 Thinking 将不再支持 Canvas，相关写作和编码功能转为直接在聊天回复中支持 writing blocks 和 code blocks。ChatGPT 还为包含五条以上回复的长对话新增了自动目录功能，方便用户快速导航。GPT-4.5 将于 6 月 27 日移除，o3 则保留至 8 月 26 日，OpenAI 为两款模型的用户提供了约 30 天的过渡期。",
+            "source": {
+              "name": "4sysops",
+              "type": "tech_media",
+              "url": "https://4sysops.com/archives/openai-gpt-5-5-instant-retirement-dates/"
+            },
+            "published_at": "2026-05-31T08:00:00Z",
+            "language": "en"
+          },
+          {
+            "id": "key-20260601-017",
+            "title": "阿里云百炼核心能力 CLI 化并开源，Agent 可一行命令接入全套模型",
+            "content": "阿里云百炼于 5 月 29 日正式宣布将核心能力 CLI 化，并同步将百炼 CLI 项目向全球开发者开源。百炼 CLI 是百炼 AI 平台的开源命令行工具，专为 Agent 设计，原生支持 Claude Code、Qoder、OpenClaw、Hermes Agent 等主流 AI Agent 框架，目前已在 GitHub 开源（modelstudioai/cli）。该工具将复杂的模型 API、鉴权方式与工具封装统一为轻量级命令行入口，使 Agent 能以自然语言调用文本、图像、视频、语音等多模态模型，并实现能力编排。它还支持知识库检索、记忆库管理与用户画像、联网搜索、本地文件上传与多模态文件处理，提供结构化输出便于 Agent 工具调用和自动化编排。CLI 化意味着开发者只需一行命令，即可让 Agent 自动接入百炼的 150 多款模型和十多款应用。",
+            "source": {
+              "name": "品玩",
+              "type": "tech_media",
+              "url": "https://www.pingwest.com/20260529/aliyun-bailian-cli.html"
+            },
+            "published_at": "2026-05-29T14:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-018",
+            "title": "Hermes Agent 引入 Tool Search 功能，缓解 MCP 协议 Token 开销问题",
+            "content": "Nous Research 于 5 月 29 日为其开源 Hermes Agent 引入 Tool Search 功能，旨在解决模型上下文协议（MCP）工具占用上下文过高的核心痛点。此前测试显示，在包含 5 台 MCP 服务器和 34 个工具的典型部署中，平均每回合的提示符大小为 45000 个 Tokens，其中约 22000 个 Tokens（近 50%）仅为工具模式的开销，直接导致成本上升与准确率下降。Tool Search 采用渐进式披露设计，模型不预先加载所有工具架构，而是按需逐轮加载所需内容。启用后，模型可见工具数组中的 MCP 工具和插件工具将被替换为三个桥接工具，实现按需加载。这一创新被社区亲切地称为让 AI 养马更省 Tokens，意味着 Agent 能够在复杂多工具环境中实现更高效的资源利用。",
+            "source": {
+              "name": "IT之家",
+              "type": "tech_media",
+              "url": "https://www.ithome.com/20260530/hermes-tool-search.html"
+            },
+            "published_at": "2026-05-29T10:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-019",
+            "title": "ElevenLabs 发布 Dubbing v2，支持 90+ 语言并保留原始情感语调",
+            "content": "5月29日，AI 语音技术公司 ElevenLabs 推出新一代 AI 配音模型 Dubbing v2。该模型采用端到端的 Audio-to-Audio 架构，支持 90 多种语言的自动翻译与配音，在生成目标语言音频的同时能够完美保留原讲述者的独特声音身份、情感、语调和节奏。Dubbing v2 的同步感知翻译系统可自动调整语速、停顿和起止点，减少手动调节需求，同时确保配音与原始内容的完美同步。该产品面向内容创作者和营销人员，解决了传统配音内容常常丢失原始情感表达的问题，为视频本地化提供了高质量、高效率的解决方案。ElevenLabs 表示，Dubbing v2 能够忠实再现原始说话者的表达方式，让观众在语言切换后仍能获得无缝的观看体验。",
+            "source": {
+              "name": "AI 早报",
+              "type": "tech_media",
+              "url": "https://mp.weixin.qq.com/s/iF9p9ErkYHQyTYae634Rhg"
+            },
+            "published_at": "2026-05-29T00:00:00Z",
+            "language": "zh"
+          },
+          {
+            "id": "key-20260601-020",
+            "title": "智谱 AI 被曝自研多款消费级硬件，首款设备已获工信部试用证",
+            "content": "据 ME AI 监测消息，一向主攻底层大模型和 B 端服务的智谱 AI 正在秘密自研多款消费级硬件，内部型号包括 ZAI-P1、ZAI-M2、ZAI-N1 等。其中进展最快的是 ZAI-P1，已于 2026 年 2 月获得工信部颁发的电信设备进网试用证，申请和生产单位均为智谱全资子公司成都智谱华章，意味着该设备已具备接入国内公用电信网的法定资质。知情人士透露，智谱 AI 正与早教代工厂展开合作，首个产品方向或将聚焦 AI 早教机领域，试图将大模型能力从云端延伸至物理终端。这一动作标志着这家以模型见长的企业正式进军消费级硬件市场，也反映出 AI 行业从模型竞赛向应用终端延伸的行业趋势。",
+            "source": {
+              "name": "ME AI News",
+              "type": "tech_media",
+              "url": "https://www.me.news/20260529/zhipu-hardware.html"
+            },
+            "published_at": "2026-05-29T05:00:00Z",
+            "language": "zh"
+          }
+        ],
+        "skipped": [],
+        "summary": {
+          "date": "2026-06-01",
+          "total_input": 20,
+          "validated": 20,
+          "skipped": 0,
+          "skipped_reasons": [],
+          "source_distribution": {
+            "tech_media": 16,
+            "aggregator": 4
+          }
+        }
+      }
+    },
+    "extract": {
+      "status": "success",
+      "itemCount": 20,
+      "summary": {
+        "date": "2026-06-01",
+        "total_items": 20,
+        "extracted_successfully": 20,
+        "needs_review": 0,
+        "skipped": 0,
+        "average_confidence": 0.9234999999999998,
+        "extraction_duration_seconds": 48.493
+      }
+    },
+    "synthesize": {
+      "status": "success",
+      "report": {
+        "date": "2026-06-01",
+        "generated_at": "2026-06-01T11:48:24.750Z",
+        "dashboard": {
+          "total_items": 20,
+          "sentiment_distribution": {
+            "positive": 18,
+            "neutral": 2
+          },
+          "risk_count": 2,
+          "top_topics": [
+            "端侧AI",
+            "AI model release",
+            "open-weights model",
+            "cost efficiency",
+            "代理式AI",
+            "AI基础设施",
+            "AI PC",
+            "生产力与经济影响",
+            "机器人领域布局",
+            "具身智能",
+            "行业竞争与创新",
+            "模型发布",
+            "技术突破",
+            "IPO进展",
+            "融资与估值",
+            "AI公司竞争",
+            "算力基础设施",
+            "World Foundation Model Launch",
+            "Open Source AI Model",
+            "Robotics & Autonomous Driving",
+            "模型发布与开源",
+            "Agent技术",
+            "稀疏MoE架构",
+            "大模型发布",
+            "成本效率突破",
+            "开源模型发布",
+            "大模型调用量增长",
+            "新模型发布",
+            "产品发布与更新",
+            "桌面应用与远程控制",
+            "生物防御",
+            "生命科学模型发布",
+            "可信访问框架",
+            "模型发布与产品更新",
+            "价格调整",
+            "编码能力提升",
+            "AI记忆管理技术突破",
+            "AI Agent产品发布",
+            "本地大模型部署",
+            "推理框架",
+            "模型退役与更新",
+            "产品功能迭代",
+            "阿里云百炼 CLI 化与开源",
+            "Token 开销优化",
+            "Agent 工具调用",
+            "AI 配音技术突破",
+            "产品发布与落地应用",
+            "消费级硬件发布"
+          ]
+        },
+        "top_events": [
+          {
+            "rank": 1,
+            "title": "Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI",
+            "item_ids": [
+              "key-20260601-005"
+            ],
+            "significance": 9,
+            "why_important": "融资规模和估值均创下AI领域新高，且首次超越OpenAI，标志着AI行业竞争格局的重大变化，凸显了资本对AI基础设施和长期发展的极度看好。",
+            "key_entities": [
+              "Anthropic",
+              "Altimeter Capital",
+              "Dragoneer",
+              "Greenoaks",
+              "红杉资本",
+              "Capital Group",
+              "Coatue",
+              "GIC",
+              "淡马锡",
+              "亚马逊",
+              "OpenAI"
+            ],
+            "sentiment_summary": "非常正面，行业信心极强。"
+          },
+          {
+            "rank": 2,
+            "title": "黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来",
+            "item_ids": [
+              "key-20260601-002"
+            ],
+            "significance": 8,
+            "why_important": "NVIDIA CEO的年度演讲被视为AI行业风向标，正式宣告代理式AI和实用型AI时代来临，将深刻影响AI基础设施、AI PC和生产力发展。",
+            "key_entities": [
+              "NVIDIA"
+            ],
+            "sentiment_summary": "积极肯定，开启新方向。"
+          },
+          {
+            "rank": 3,
+            "title": "OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师",
+            "item_ids": [
+              "key-20260601-003"
+            ],
+            "significance": 8,
+            "why_important": "OpenAI从软件AI巨头正式切入机器人硬件领域，意味着具身智能赛道竞争将显著加剧，并可能加速机器人与AI融合的商业化进程。",
+            "key_entities": [
+              "OpenAI"
+            ],
+            "sentiment_summary": "正面，行业创新预期增强。"
+          }
+        ],
+        "deep_analyses": [
+          {
+            "event_title": "Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI",
+            "background": "Anthropic由前OpenAI员工创立，长期被视为OpenAI在AI安全与模型研发领域的主要竞争对手。本轮H轮融资规模高达650亿美元，参与方包括多家顶级风投与主权基金，投后估值9650亿美元首度超越OpenAI，标志着资本对AI基础设施和长期发展的极度看好。",
+            "key_developments": [
+              "Anthropic完成650亿美元H轮融资，创下AI领域单轮融资及私营公司估值新高。",
+              "投后估值9650亿美元，首次超越OpenAI成为全球估值最高的私营AI公司。",
+              "投资方阵容豪华，涵盖Altimeter Capital、Dragoneer、红杉资本、Amazon及GIC、淡马锡等主权基金。"
+            ],
+            "impact_analysis": {
+              "short_term": "短期内，Anthropic将加速算力扩张、安全研究与产品迭代，可能快速推出更大规模的模型及相关应用，对OpenAI形成直接竞争压力。",
+              "medium_term": "中期来看，这一融资事件可能引发AI行业新一轮资本军备竞赛，推动大模型训练成本进一步攀升；同时，Anthropic对安全研究的强调或成为行业差异化竞争关键，并促使监管与标准制定加速。",
+              "affected_parties": [
+                "OpenAI：面临估值被超越及人才、市场信心流失的压力。",
+                "亚马逊等投资方：巩固了其在AI生态中的战略卡位，并获得更深度技术绑定。",
+                "AI初创公司：融资门槛被大幅拉高，行业马太效应加剧，中小玩家生存空间收窄。",
+                "主权基金与大型投资机构：通过投资龙头AI公司间接押注下一代基础设施。"
+              ]
+            },
+            "related_events": [
+              "OpenAI此前完成多轮大规模融资，估值一度超过9000亿美元",
+              "AI行业持续爆发式增长，多家头部公司竞相争夺算力资源与高端人才"
+            ],
+            "expert_perspective": "本次融资不仅印证了资本对AI赛道‘赢者通吃’逻辑的信任，更凸显了市场对安全可控AI路线的认可——Anthropic对‘宪法AI’的专注成为其区别于OpenAI的重要卖点。未来两年，谁能更高效地将巨额资本转化为模型能力与商业化落地，谁就将主导AGI革命的下半场。",
+            "references": [
+              "key-20260601-005"
+            ]
+          },
+          {
+            "event_title": "黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来",
+            "background": "NVIDIA CEO黄仁勋在COMPUTEX 2026上发表了年度主题演讲，正式宣告代理式AI（Agentic AI）和实用型人工智能时代的到来。该演讲被视为AI行业的风向标，标志着从大模型训练到实际应用落地的重要转折点。",
+            "key_developments": [
+              "黄仁勋明确表示‘代理式AI时代已到来’，AI正从对话式工具转向能够自主执行任务的代理系统。",
+              "发布下一代AI基础设施平台Vera Rubin，旨在支持大规模代理式AI的部署和运行。",
+              "强调AI已成为GDP产生器，预测未来每家公司都将成为‘代理公司’，即利用AI代理驱动业务核心流程。"
+            ],
+            "impact_analysis": {
+              "short_term": "短期内，NVIDIA的GPU和AI硬件需求将大幅增长，尤其是面向数据中心和AI PC的芯片订单；企业将加速评估和试点代理式AI应用。",
+              "medium_term": "中期内，代理式AI将重塑企业IT架构，催生新的软件平台和行业解决方案；传统SaaS公司面临AI代理取代人工操作的压力，推动生产力工具全面智能化。",
+              "affected_parties": [
+                "NVIDIA及其供应链（台积电、SK海力士等）",
+                "AI软件开发商和云服务商（如Microsoft、Google、Amazon）",
+                "传统企业IT部门与系统集成商",
+                "AI PC制造商与应用开发者"
+              ]
+            },
+            "related_events": [
+              "NVIDIA在COMPUTEX 2025上发布Blackwell架构及AI工厂概念",
+              "OpenAI推出GPT-5并强化Agent功能",
+              "微软、谷歌等巨头宣布‘AI代理优先’战略"
+            ],
+            "expert_perspective": "黄仁勋的发言进一步确认了AI产业正从‘模型竞赛’转向‘应用落地’阶段。代理式AI的正式宣告意味着企业需要重新思考其数字化战略，而NVIDIA的硬件和平台将成为这一转型的关键基础设施。不过这同时带来治理和安全挑战——如何确保AI代理的可靠性和可控性将成为行业焦点。",
+            "references": [
+              "key-20260601-002"
+            ]
+          },
+          {
+            "event_title": "OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师",
+            "background": "OpenAI此前一直专注于大语言模型和多模态AI等软件领域，但AI与物理世界的交互（具身智能）被视为下一代AI应用的关键。此次招聘全栈机器人工程师，标志着OpenAI从纯软件AI公司正式向机器人硬件与软件融合领域拓展，意图在具身智能赛道占据先发优势。",
+            "key_developments": [
+              "OpenAI公开招募全栈机器人工程师，明确短期聚焦基础设施维护机器人，长期目标为家庭服务机器人。",
+              "标志着OpenAI从语言模型、视频生成等数字应用向物理世界AI应用的战略跃迁。"
+            ],
+            "impact_analysis": {
+              "short_term": "短期内引发机器人领域人才争夺战，推动具身智能相关初创企业估值上升，同时加剧市场对机器人+AI商用化的关注度。",
+              "medium_term": "中期内可能加速机器人通用基础模型的研发进程，并促使科技巨头（如Google、Meta）加大机器人投入，行业竞争格局将显著重塑。",
+              "affected_parties": [
+                "机器人硬件制造商（如特斯拉、波士顿动力）",
+                "AI+机器人初创公司（如Figure AI、1X Technologies）",
+                "投资机构（风投和产业资本将重新评估机器人赛道）"
+              ]
+            },
+            "related_events": [
+              "特斯拉Optimus机器人项目持续推进",
+              "Figure AI获大规模融资并与OpenAI合作开发机器人AI模型"
+            ],
+            "expert_perspective": "这是OpenAI从虚拟智能走向物理智能的必然一步。结合其在大模型和多模态上的积累，OpenAI有望打造一个‘机器人大脑’，极大降低机器人的开发门槛。但硬件制造、供应链和Safety对齐仍是其需跨越的关键挑战。",
+            "references": [
+              "key-20260601-003"
+            ]
+          }
+        ],
+        "trend_analysis": {
+          "technology": {
+            "trend": "AI技术正从‘大而全’的通用模型，走向‘精而专’的生态分化。一方面，以NVIDIA Nemotron 3 Ultra、百度文心5.1为代表的超大模型继续追求性能极限，但更强调成本效率（如百度将预训练成本降至6%）；另一方面，以面壁智能1B端侧模型、阶跃星辰11B稀疏MoE Agent模型为代表的‘轻量级高性能’模型异军突起，瞄准特定场景（端侧、Agent）。同时，物理AI（NVIDIA Cosmos 3）和记忆管理（腾讯Hy-Memory）等前沿技术领域开始收获实质性突破，标志着AI技术栈已从‘模型层’向‘系统层’和‘基础设施层’纵深发展。",
+            "confidence": 0.95,
+            "supporting_items": [
+              "key-20260601-001",
+              "key-20260601-002",
+              "key-20260601-006",
+              "key-20260601-007",
+              "key-20260601-008",
+              "key-20260601-009",
+              "key-20260601-014"
+            ],
+            "signals": [
+              "‘成本效率’（6%）成为与‘性能’并列的核心技术指标",
+              "稀疏MoE架构（阶跃星辰）和世界基础模型（NVIDIA Cosmos 3）的技术路线成熟",
+              "端侧AI（1B参数跑在手机）和记忆管理（Token消耗降低35%）成为工程化落地的焦点"
+            ]
+          },
+          "application": {
+            "trend": "AI应用进入‘Agent+具身智能’的全面爆发期，且从互联网/办公场景向物理世界和生命科学等核心领域加速渗透。黄仁勋明确宣告‘代理式AI和实用型AI时代到来’，OpenAI正式招聘机器人工程师回归具身智能；在生产力领域，Claude Opus 4.8和阿里云百炼CLI化大幅降低了Agent开发门槛；在多媒体领域，ElevenLabs的配音模型已能跨越90多种语言保留情感。此外，AI正严肃地进入生物防御（OpenAI Rosalind）等关乎人类安全的重大议题，表明AI应用的价值维度正在快速扩展。",
+            "confidence": 0.9,
+            "supporting_items": [
+              "key-20260601-002",
+              "key-20260601-003",
+              "key-20260601-013",
+              "key-20260601-014",
+              "key-20260601-017",
+              "key-20260601-019",
+              "key-20260601-012"
+            ],
+            "signals": [
+              "顶级公司（OpenAI、NVIDIA）战略性地回归和重注‘机器人’（具身智能）",
+              "Agent开发从‘框架’走向‘一行命令’的轻量化（阿里云百炼CLI）",
+              "AI应用场景从‘降本增效’向‘创造新市场’（生物防御、跨语言情感保留）演进"
+            ]
+          },
+          "policy": {
+            "trend": "政策与生态治理呈现‘外松内紧、攻防兼备’的态势。表面上，开源生态持续繁荣（NVIDIA Cosmos 3全模态开源、阶跃星辰和面壁智能相继开源），技术扩散加速；但深层次看，已出现结构化安全约束：OpenAI在发布强大生命科学模型的同时，针对生物防御领域设立了‘可信访问框架’，表明行业龙头开始主动构筑‘安全护栏’以防止技术滥用。这预示未来AI政策趋势将从‘鼓励创新为主’转向‘创新与安全双轨并行’，尤其是在高风险领域（生物、机器人）。",
+            "confidence": 0.7,
+            "supporting_items": [
+              "key-20260601-006",
+              "key-20260601-007",
+              "key-20260601-009",
+              "key-20260601-012"
+            ],
+            "signals": [
+              "开源模式成为主流，但针对特定安全领域（如生物防御）出现了‘可信访问’的门禁机制",
+              "头部企业（OpenAI、NVIDIA）开始主动承担‘模型安全治理’责任，先于政府监管进行自我规范",
+              "整体政策环境偏向支持创新，但技术应用的分领域治理（如机器人、生物）或将成为新焦点"
+            ]
+          },
+          "capital": {
+            "trend": "资本正以前所未有的规模和速度向‘AI双寡头’（Anthropic与OpenAI）及其基础设施集中，同时重仓‘物理AI’和‘算力’赛道。Anthropic以9650亿美元估值完成650亿美元H轮融资，首超OpenAI，标志着资本从‘追随领导者’转为‘寻找挑战者’的轮动模式。二级市场与一级市场均给出极高溢价。与此同时，MiniMax、阶跃星辰等中国AI新贵也获得资本关注并筹备IPO，表明全球资本并未退缩，而是在寻找下一个增长极。NVIDIA Nemotron和Cosmos系列的发布，也同步强化了‘卖铲人’（算力）的持续价值。",
+            "confidence": 0.95,
+            "supporting_items": [
+              "key-20260601-005",
+              "key-20260601-004",
+              "key-20260601-001",
+              "key-20260601-006"
+            ],
+            "signals": [
+              "单笔融资创纪录（650亿美元），AI公司的估值天花板被大幅推高至近万亿美元",
+              "资本从‘押注单一领袖’转向‘支持最强挑战者’的竞争下注模式（Anthropic vs. OpenAI）",
+              "中国AI公司（如MiniMax）加速IPO，全球AI投融资市场保持高度活跃"
+            ]
+          },
+          "overall_narrative": "2026年6月1日，AI产业正式进入‘双超多强’格局下的实用主义爆发纪元。技术与资本双轮驱动，Anthropic与OpenAI的估值竞争愈发激烈，而资本溢出的红利正流向NVIDIA等基础设施提供者和MiniMax等中国新锐。技术层面，‘大模型’的竞赛并未结束，但重点已转向‘成本效率’；更重大的趋势是，‘代理式AI’与‘具身智能’从概念走向产品，AI正在跨越‘对话’边界，接管复杂任务、控制电脑、驱动机器人，并开始尝试守护人类的生物安全。开源与安全、创新与治理之间的张力，正成为塑造产业未来的关键变量。",
+          "uncertainties": [
+            "Anthropic接近万亿的估值是否已透支未来盈利预期？其与OpenAI的‘烧钱竞赛’何时会触发资本回报率的拷问？",
+            "‘代理式AI’大规模落地后，若出现不可控的自动化失误或安全漏洞，是否会引发监管的急刹车？",
+            "中国AI公司（如百度、阶跃星辰、MiniMax）在成本效率上的突破，能否真正挑战美国在基础模型和算力上的领先地位？技术路线的分化（开源闭源、端侧云端）将如何重塑全球市场格局？"
+          ]
+        },
+        "risk_opportunity": {
+          "risks": [
+            {
+              "description": "资本市场对AI龙头（Anthropic、OpenAI）的估值可能严重透支未来盈利预期，一旦增长不及预期，将引发全球AI投融资市场剧烈回调，波及整个产业链。",
+              "level": "critical",
+              "probability": "medium",
+              "type": "systemic",
+              "related_items": [
+                "key-20260601-005",
+                "key-20260601-004"
+              ],
+              "suggested_action": "关注龙头企业营收与用户增长的关键指标，分散投资于基础设施（如NVIDIA）和应用层公司，避免过度集中于头部模型企业。"
+            },
+            {
+              "description": "代理式AI（Agent）和具身智能大规模落地后，可能出现不可控的自动化失误、安全漏洞或伦理问题（如机器人误操作、Agent滥用权限），引发监管急刹车和公众信任危机。",
+              "level": "high",
+              "probability": "high",
+              "type": "systemic",
+              "related_items": [
+                "key-20260601-002",
+                "key-20260601-003",
+                "key-20260601-017"
+              ],
+              "suggested_action": "企业应提前建立Agent行为审计、安全冗余和应急熔断机制，积极参与行业自律规范制定，并密切关注监管政策动向。"
+            },
+            {
+              "description": "开源模型与技术加速扩散（如NVIDIA Cosmos、面壁智能），虽然促进创新，但也可能导致技术被恶意利用（如生物武器设计、深度伪造），带来严重的社会安全风险。",
+              "level": "high",
+              "probability": "medium",
+              "type": "quantifiable",
+              "related_items": [
+                "key-20260601-006",
+                "key-20260601-007",
+                "key-20260601-012"
+              ],
+              "suggested_action": "借鉴OpenAI‘可信访问框架’，对高风险领域（生物、机器人等）的开源模型实施分级许可或使用追踪，同时加强内部安全审查和红队测试。"
+            },
+            {
+              "description": "中国AI公司（如百度、阶跃星辰、MiniMax）虽然在成本效率上取得突破，但面临美国在基础模型和高端算力（GPU）上的持续领先与封锁，技术路线分化可能进一步拉大差距。",
+              "level": "medium",
+              "probability": "medium",
+              "type": "systemic",
+              "related_items": [
+                "key-20260601-001",
+                "key-20260601-007",
+                "key-20260601-009"
+              ],
+              "suggested_action": "加大在算力自主可控（如国产芯片、新型架构）和软件生态（如稀疏MoE、端侧优化）上的投入，探索差异化竞争路径，减少对单一技术栈的依赖。"
+            },
+            {
+              "description": "AI向生命科学（生物防御）等高风险领域渗透加速，若安全护栏未能同步演进，可能导致生物安全工具被滥用，引发全球性威胁。",
+              "level": "high",
+              "probability": "low",
+              "type": "quantifiable",
+              "related_items": [
+                "key-20260601-012"
+              ],
+              "suggested_action": "投资开发生物安全AI的专用评估与监控工具，与行业组织和政府合作建立全球性的生物AI使用伦理与安全标准。"
+            }
+          ],
+          "opportunities": [
+            {
+              "description": "轻量级高性能模型（端侧AI、1B参数级）和稀疏MoE架构（如阶跃星辰）为AI在手机、IoT等边缘设备上的普及打开市场，可抢占C端智能服务与B端私有化部署的蓝海。",
+              "category": "technology",
+              "time_window": "immediate",
+              "related_items": [
+                "key-20260601-007",
+                "key-20260601-009"
+              ],
+              "rationale": "技术成熟（端侧推理）和成本下降（预训练成本降至6%）为规模化落地扫清障碍，且用户隐私和低延迟需求强烈。"
+            },
+            {
+              "description": "Agent开发工具链的极度简化（如阿里云百炼CLI化、一行命令部署）将大幅降低AI应用开发门槛，使大量中小企业和开发者能够快速构建自动化代理，催生新的SaaS和垂直服务市场。",
+              "category": "business",
+              "time_window": "short_term",
+              "related_items": [
+                "key-20260601-014",
+                "key-20260601-017"
+              ],
+              "rationale": "‘代理式AI时代’已获行业领袖（黄仁勋）确认，工具链成熟是爆发前夜的关键信号，先发优势明显。"
+            },
+            {
+              "description": "物理AI（NVIDIA Cosmos 3）和具身智能（OpenAI重归机器人）的实质性突破，为机器人、自动驾驶、工业自动化等领域带来新的产品定价权和想象力空间，可提前布局相关软硬件生态。",
+              "category": "technology",
+              "time_window": "medium_term",
+              "related_items": [
+                "key-20260601-006",
+                "key-20260601-003"
+              ],
+              "rationale": "世界基础模型和机器人战略回归表明产业共识已形成，虽然商用化需时日，但长期投资价值巨大。"
+            },
+            {
+              "description": "全球资本高度活跃且向‘AI双寡头’轮动，同时中国AI新贵（MiniMax、阶跃星辰）加速IPO，为风险投资和二级市场提供了多样化的投资标的，可抓住‘挑战者崛起’带来的溢价机会。",
+              "category": "business",
+              "time_window": "immediate",
+              "related_items": [
+                "key-20260601-005",
+                "key-20260601-004"
+              ],
+              "rationale": "资本轮动模式（从追随者到挑战者）创造了短期估值跃升窗口，且中国公司IPO提供了本土化投资路径。"
+            },
+            {
+              "description": "AI在多媒体领域的突破（ElevenLabs跨语言情感保留）和生物安全领域的应用（OpenAI Rosalind）表明AI正创造全新市场，可率先探索‘数字情感服务’和‘AI安全咨询’等蓝海业务。",
+              "category": "policy",
+              "time_window": "short_term",
+              "related_items": [
+                "key-20260601-019",
+                "key-20260601-012"
+              ],
+              "rationale": "从‘降本增效’到‘创造新市场’的演进意味着更高利润空间和更长的技术护城河，政策支持也将倾向于这些‘有益’方向。"
+            }
+          ],
+          "overall_risk_assessment": "当前AI产业处于‘高机遇、高不确定性’阶段。整体风险中等偏高，主要源于资本泡沫风险（critical级）和代理式AI/具身智能规模化后的监管及安全风险（high级）。然而，这些风险并非制约发展的主要因素，而是需要通过前瞻性治理、技术优化和分散投资来应对。总体来看，技术趋势（轻量高效、物理AI）和应用爆发（Agent、多媒体）带来的机遇远大于结构性风险，对能够平衡创新与安全的参与者而言，当前是极佳的战略投资窗口。"
+        },
+        "references_index": [
+          {
+            "id": "key-20260601-005",
+            "title": "Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-002",
+            "title": "黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-003",
+            "title": "OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-006",
+            "title": "NVIDIA launches Cosmos 3: first fully open-source, full-modal physical AI foundation model",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-008",
+            "title": "百度发布文心大模型5.1：预训练成本仅为业界6%，LM Arena全球第四国内第一",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-001",
+            "title": "NVIDIA unveils Nemotron 3 Ultra, America's smartest open-weights AI model at 500-550B parameters",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-004",
+            "title": "MiniMax新一代通用模型M3发布：百万Token超长上下文，编程能力超过GPT-5.5",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-007",
+            "title": "阶跃星辰发布并开源Step 3.7 Flash，以11B激活参数争夺Agent主战场",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-009",
+            "title": "面壁智能开源MiniCPM5-1B：1B参数0.5GB权重，能跑在手机和浏览器上",
+            "source_name": "",
+            "source_url": ""
+          },
+          {
+            "id": "key-20260601-012",
+            "title": "OpenAI 上线 Rosalind Biodefense 生物防御计划，向可信开发者开放生命科学模型",
+            "source_name": "",
+            "source_url": ""
+          }
+        ]
+      }
+    },
+    "visualize": {
+      "status": "success",
+      "charts": {
+        "topicBarChart": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 500\">\n  <style>\n    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }\n    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }\n    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }\n    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }\n    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }\n    .axis { stroke: #D1D5DB; stroke-width: 2; }\n    .ref-text { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #9CA3AF; }\n  </style>\n\n  <text class=\"title\" x=\"400\" y=\"40\" text-anchor=\"middle\">AI 话题热度 Top-10 — 2026-06-01</text>\n  <line class=\"grid\" x1=\"210.0\" y1=\"60\" x2=\"210.0\" y2=\"420\" />\n  <line class=\"grid\" x1=\"320.0\" y1=\"60\" x2=\"320.0\" y2=\"420\" />\n  <line class=\"grid\" x1=\"430.0\" y1=\"60\" x2=\"430.0\" y2=\"420\" />\n  <line class=\"grid\" x1=\"540.0\" y1=\"60\" x2=\"540.0\" y2=\"420\" />\n  <line class=\"grid\" x1=\"650.0\" y1=\"60\" x2=\"650.0\" y2=\"420\" />\n  <text class=\"label\" x=\"200\" y=\"89\" text-anchor=\"end\">端侧AI</text>\n  <text class=\"label\" x=\"200\" y=\"124\" text-anchor=\"end\">AI model relea…</text>\n  <text class=\"label\" x=\"200\" y=\"159\" text-anchor=\"end\">open-weights m…</text>\n  <text class=\"label\" x=\"200\" y=\"194\" text-anchor=\"end\">cost efficiency</text>\n  <text class=\"label\" x=\"200\" y=\"229\" text-anchor=\"end\">代理式AI</text>\n  <text class=\"label\" x=\"200\" y=\"264\" text-anchor=\"end\">AI基础设施</text>\n  <text class=\"label\" x=\"200\" y=\"299\" text-anchor=\"end\">AI PC</text>\n  <text class=\"label\" x=\"200\" y=\"334\" text-anchor=\"end\">生产力与经济影响</text>\n  <text class=\"label\" x=\"200\" y=\"369\" text-anchor=\"end\">机器人领域布局</text>\n  <text class=\"label\" x=\"200\" y=\"404\" text-anchor=\"end\">具身智能</text>\n  <rect role=\"bar\" x=\"210\" y=\"70\" width=\"440.0\" height=\"30\" rx=\"4\" fill=\"#3B82F6\" />\n  <rect role=\"bar\" x=\"210\" y=\"105\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#6366F1\" />\n  <rect role=\"bar\" x=\"210\" y=\"140\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#8B5CF6\" />\n  <rect role=\"bar\" x=\"210\" y=\"175\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#3B82F6\" />\n  <rect role=\"bar\" x=\"210\" y=\"210\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#6366F1\" />\n  <rect role=\"bar\" x=\"210\" y=\"245\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#8B5CF6\" />\n  <rect role=\"bar\" x=\"210\" y=\"280\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#3B82F6\" />\n  <rect role=\"bar\" x=\"210\" y=\"315\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#6366F1\" />\n  <rect role=\"bar\" x=\"210\" y=\"350\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#8B5CF6\" />\n  <rect role=\"bar\" x=\"210\" y=\"385\" width=\"220.0\" height=\"30\" rx=\"4\" fill=\"#3B82F6\" />\n  <text class=\"value\" x=\"660\" y=\"89\">2</text>\n  <text class=\"value\" x=\"660\" y=\"124\">1</text>\n  <text class=\"value\" x=\"660\" y=\"159\">1</text>\n  <text class=\"value\" x=\"660\" y=\"194\">1</text>\n  <text class=\"value\" x=\"660\" y=\"229\">1</text>\n  <text class=\"value\" x=\"660\" y=\"264\">1</text>\n  <text class=\"value\" x=\"660\" y=\"299\">1</text>\n  <text class=\"value\" x=\"660\" y=\"334\">1</text>\n  <text class=\"value\" x=\"660\" y=\"369\">1</text>\n  <text class=\"value\" x=\"660\" y=\"404\">1</text>\n  <text class=\"note\" x=\"400\" y=\"480\" text-anchor=\"middle\">数据来源: Daily AI Insight Engine — 2026-06-01</text>\n</svg>",
+        "sentimentDonut": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 500\">\n  <style>\n    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }\n    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }\n    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }\n    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }\n    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }\n    .axis { stroke: #D1D5DB; stroke-width: 2; }\n    .ref-text { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #9CA3AF; }\n  </style>\n  <text class=\"title\" x=\"300\" y=\"40\" text-anchor=\"middle\">情感分布 — 2026-06-01</text>\n  <path d=\"M 300.00 130.00 A 120 120 0 1 1 229.47 152.92 L 264.73 201.46 A 60 60 0 1 0 300.00 190.00 Z\" fill=\"#059669\" />\n  <path d=\"M 229.47 152.92 A 120 120 0 0 1 300.00 130.00 L 300.00 190.00 A 60 60 0 0 0 264.73 201.46 Z\" fill=\"#6B7280\" />\n  <text class=\"value\" x=\"300\" y=\"242\" text-anchor=\"middle\" font-size=\"24\" font-weight=\"bold\" fill=\"#111827\">N=20</text>\n  <text class=\"note\" x=\"300\" y=\"262\" text-anchor=\"middle\" font-size=\"12\">条</text>\n  <rect x=\"430\" y=\"150\" width=\"12\" height=\"12\" rx=\"2\" fill=\"#059669\" />\n  <text class=\"label\" x=\"450\" y=\"160\">正面 (18)</text>\n  <rect x=\"430\" y=\"180\" width=\"12\" height=\"12\" rx=\"2\" fill=\"#6B7280\" />\n  <text class=\"label\" x=\"450\" y=\"190\">中性 (2)</text>\n  <text class=\"note\" x=\"300\" y=\"480\" text-anchor=\"middle\">数据来源: Daily AI Insight Engine — 2026-06-01</text>\n</svg>",
+        "trendRadar": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 600\">\n  <style>\n    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }\n    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }\n    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }\n    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }\n    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }\n    .axis { stroke: #D1D5DB; stroke-width: 2; }\n    .ref-text { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #9CA3AF; }\n  </style>\n  <text class=\"title\" x=\"300\" y=\"40\" text-anchor=\"middle\">四维趋势雷达 — 2026-06-01</text>\n  <polygon class=\"grid\" points=\"300.0,250.0 350.0,300.0 300.0,350.0 250.0,300.0\" fill=\"none\" />\n  <polygon class=\"grid\" points=\"300.0,200.0 400.0,300.0 300.0,400.0 200.0,300.0\" fill=\"none\" />\n  <polygon class=\"grid\" points=\"300.0,150.0 450.0,300.0 300.0,450.0 150.0,300.0\" fill=\"none\" />\n  <polygon class=\"grid\" points=\"300.0,100.0 500.0,300.0 300.0,500.0 100.0,300.0\" fill=\"none\" />\n  <line class=\"axis\" x1=\"300\" y1=\"300\" x2=\"300.0\" y2=\"100.0\" />\n  <line class=\"axis\" x1=\"300\" y1=\"300\" x2=\"500.0\" y2=\"300.0\" />\n  <line class=\"axis\" x1=\"300\" y1=\"300\" x2=\"300.0\" y2=\"500.0\" />\n  <line class=\"axis\" x1=\"300\" y1=\"300\" x2=\"100.0\" y2=\"300.0\" />\n  <text class=\"ref-text\" x=\"300.0\" y=\"250.03\" text-anchor=\"middle\">0.25</text>\n  <text class=\"ref-text\" x=\"300.0\" y=\"200.03\" text-anchor=\"middle\">0.50</text>\n  <text class=\"ref-text\" x=\"300.0\" y=\"150.03\" text-anchor=\"middle\">0.75</text>\n  <text class=\"ref-text\" x=\"350.0\" y=\"300.03\" text-anchor=\"start\">0.25</text>\n  <text class=\"ref-text\" x=\"400.0\" y=\"300.03\" text-anchor=\"start\">0.50</text>\n  <text class=\"ref-text\" x=\"450.0\" y=\"300.03\" text-anchor=\"start\">0.75</text>\n  <text class=\"ref-text\" x=\"300.0\" y=\"350.03\" text-anchor=\"middle\">0.25</text>\n  <text class=\"ref-text\" x=\"300.0\" y=\"400.03\" text-anchor=\"middle\">0.50</text>\n  <text class=\"ref-text\" x=\"300.0\" y=\"450.03\" text-anchor=\"middle\">0.75</text>\n  <text class=\"ref-text\" x=\"250.0\" y=\"300.03\" text-anchor=\"end\">0.25</text>\n  <text class=\"ref-text\" x=\"200.0\" y=\"300.03\" text-anchor=\"end\">0.50</text>\n  <text class=\"ref-text\" x=\"150.0\" y=\"300.03\" text-anchor=\"end\">0.75</text>\n  <text class=\"label\" x=\"300.0\" y=\"80.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"14\">技术</text>\n  <text class=\"label\" x=\"520.0\" y=\"300.0\" text-anchor=\"start\" font-weight=\"bold\" font-size=\"14\">应用</text>\n  <text class=\"label\" x=\"300.0\" y=\"520.0\" text-anchor=\"middle\" font-weight=\"bold\" font-size=\"14\">政策</text>\n  <text class=\"label\" x=\"80.0\" y=\"300.0\" text-anchor=\"end\" font-weight=\"bold\" font-size=\"14\">资本</text>\n  <polygon points=\"300.0,110.0 480.0,300.0 300.0,440.0 110.0,300.0\" fill=\"rgba(59, 130, 246, 0.2)\" stroke=\"#3B82F6\" stroke-width=\"2\" />\n  <text class=\"value\" x=\"300.0\" y=\"98.0\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#3B82F6\">0.95</text>\n  <text class=\"value\" x=\"492.0\" y=\"300.0\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\" fill=\"#3B82F6\">0.90</text>\n  <text class=\"value\" x=\"300.0\" y=\"452.0\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#3B82F6\">0.70</text>\n  <text class=\"value\" x=\"98.0\" y=\"300.0\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\" fill=\"#3B82F6\">0.95</text>\n  <text class=\"note\" x=\"300\" y=\"580\" text-anchor=\"middle\">数据来源: Daily AI Insight Engine — 2026-06-01</text>\n</svg>",
+        "eventTimeline": "timeline\n    title 今日 AI 显著事件时间线 — 2026-06-01\n    11:46 : 🔴 黄仁勋COMPUTEX 2026演讲：代理式AI和实用型人工智能时代已经到来 (8/10)\n    11:46 : 🔴 OpenAI正式进军机器人领域：宣布招聘全栈机器人工程师 (8/10)\n    11:46 : 🔴 NVIDIA unveils Nemotron 3 Ultra, America's smartest open-weights AI model at 500-550B parameters (7/10)\n    11:46 : 🔴 Anthropic完成650亿美元H轮融资，估值达9650亿美元首超OpenAI (9/10)\n    11:46 : 🔴 NVIDIA launches Cosmos 3: first fully open-source, full-modal physical AI foundation model (8/10)\n    11:46 : 🔴 MiniMax新一代通用模型M3发布：百万Token超长上下文，编程能力超过GPT-5.5 (7/10)\n    11:46 : 🔴 百度发布文心大模型5.1：预训练成本仅为业界6%，LM Arena全球第四国内第一 (8/10)\n    11:46 : 🔴 阶跃星辰发布并开源Step 3.7 Flash，以11B激活参数争夺Agent主战场 (7/10)\n    11:46 : 🔴 面壁智能开源MiniCPM5-1B：1B参数0.5GB权重，能跑在手机和浏览器上 (7/10)\n    11:46 : 🔴 OpenAI 上线 Rosalind Biodefense 生物防御计划，向可信开发者开放生命科学模型 (7/10)"
+      }
+    }
+  },
+  "totalDurationMs": 130752
+}

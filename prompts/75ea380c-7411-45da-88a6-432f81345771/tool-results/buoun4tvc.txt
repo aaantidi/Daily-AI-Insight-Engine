@@ -1,0 +1,800 @@
+
+> daily-ai-insight-engine@1.0.0 test
+> jest
+
+ts-jest[config] (WARN) 
+    The "ts-jest" config option "isolatedModules" is deprecated and will be removed in v30.0.0. Please use "isolatedModules: true" in D:/1/daily-ai-insight-engine/tsconfig.json instead, see https://www.typescriptlang.org/tsconfig/#isolatedModules
+  
+[2026-06-01T12:08:31.946Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.946Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.952Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:31.954Z] [INFO] [EXTRACT] Starting EXTRACT batch: 2 item(s)
+[2026-06-01T12:08:31.954Z] [INFO] [EXTRACT] Processing batch 1/1 (2 item(s))
+[2026-06-01T12:08:31.955Z] [INFO] [EXTRACT] EXTRACT batch complete: 2/2 extracted successfully
+[2026-06-01T12:08:31.956Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.956Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.956Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:31.957Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.957Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.957Z] [INFO] [EXTRACT] Remedial retry for tc-20260601-001: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:31.957Z] [ERROR] [EXTRACT] Remedial extraction failed for tc-20260601-001 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:31.957Z] [ERROR] [EXTRACT] Extraction failed for tc-20260601-001 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:31.957Z] [INFO] [EXTRACT] EXTRACT batch complete: 0/1 extracted successfully
+[2026-06-01T12:08:31.958Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.958Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.958Z] [INFO] [EXTRACT] Remedial retry for tc-20260601-001: confidence=0.3, reason=low extraction confidence (0.3)
+[2026-06-01T12:08:31.958Z] [ERROR] [EXTRACT] Remedial extraction failed for tc-20260601-001 {"confidence":0.3}
+[2026-06-01T12:08:31.958Z] [ERROR] [EXTRACT] Extraction failed for tc-20260601-001 {"confidence":0.3}
+[2026-06-01T12:08:31.958Z] [INFO] [EXTRACT] EXTRACT batch complete: 0/1 extracted successfully
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.959Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:31.960Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:31.960Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:31.961Z] [INFO] [EXTRACT] Remedial retry for tc-20260601-001: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:31.961Z] [ERROR] [EXTRACT] Remedial extraction failed for tc-20260601-001 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:31.961Z] [ERROR] [EXTRACT] Extraction failed for tc-20260601-001 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:31.961Z] [INFO] [EXTRACT] EXTRACT batch complete: 0/1 extracted successfully
+[2026-06-01T12:08:31.961Z] [INFO] [EXTRACT] Starting EXTRACT batch: 2 item(s)
+[2026-06-01T12:08:31.961Z] [INFO] [EXTRACT] Processing batch 1/1 (2 item(s))
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] Remedial retry for ob-20260601-002: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:31.962Z] [ERROR] [EXTRACT] Remedial extraction failed for ob-20260601-002 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:31.962Z] [ERROR] [EXTRACT] Extraction failed for ob-20260601-002 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/2 extracted successfully
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] Starting EXTRACT batch: 3 item(s)
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] Processing batch 1/1 (3 item(s))
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] Remedial retry for ka-20260601-003: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:31.962Z] [ERROR] [EXTRACT] Remedial extraction failed for ka-20260601-003 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:31.962Z] [ERROR] [EXTRACT] Extraction failed for ka-20260601-003 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:31.962Z] [INFO] [EXTRACT] EXTRACT batch complete: 2/3 extracted successfully
+[2026-06-01T12:08:31.963Z] [INFO] [EXTRACT] Starting EXTRACT batch: 3 item(s)
+[2026-06-01T12:08:31.963Z] [INFO] [EXTRACT] Processing batch 1/3 (1 item(s))
+[2026-06-01T12:08:32.026Z] [INFO] [EXTRACT] Processing batch 2/3 (1 item(s))
+[2026-06-01T12:08:32.087Z] [INFO] [EXTRACT] Processing batch 3/3 (1 item(s))
+[2026-06-01T12:08:32.147Z] [INFO] [EXTRACT] EXTRACT batch complete: 3/3 extracted successfully
+[2026-06-01T12:08:32.148Z] [INFO] [EXTRACT] Starting EXTRACT batch: 0 item(s)
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:32.149Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:32.150Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:32.150Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:32.150Z] [INFO] [EXTRACT] Remedial retry for tc-20260601-001: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.150Z] [ERROR] [EXTRACT] Remedial extraction failed for tc-20260601-001 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.150Z] [ERROR] [EXTRACT] Extraction failed for tc-20260601-001 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.150Z] [INFO] [EXTRACT] EXTRACT batch complete: 0/1 extracted successfully
+[2026-06-01T12:08:32.151Z] [INFO] [EXTRACT] Starting EXTRACT batch: 2 item(s)
+[2026-06-01T12:08:32.151Z] [INFO] [EXTRACT] Processing batch 1/1 (2 item(s))
+[2026-06-01T12:08:32.151Z] [INFO] [EXTRACT] EXTRACT batch complete: 2/2 extracted successfully
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] Starting EXTRACT batch: 4 item(s)
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] Processing batch 1/2 (2 item(s))
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] Processing batch 2/2 (2 item(s))
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] EXTRACT batch complete: 4/4 extracted successfully
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:32.152Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] Starting EXTRACT batch: 1 item(s)
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] Processing batch 1/1 (1 item(s))
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] EXTRACT batch complete: 1/1 extracted successfully
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] Starting EXTRACT batch: 3 item(s)
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] Processing batch 1/1 (3 item(s))
+[2026-06-01T12:08:32.153Z] [INFO] [EXTRACT] EXTRACT batch complete: 3/3 extracted successfully
+[2026-06-01T12:08:32.314Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.314Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.314Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.314Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.314Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.314Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.314Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.315Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.315Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.315Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.315Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.315Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.315Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.317Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.317Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.317Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.318Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.318Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.319Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.319Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.319Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.319Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.319Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.320Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.320Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.320Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.322Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.323Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.323Z] [INFO] [PIPELINE] Pipeline finished in 9ms — success=true
+[2026-06-01T12:08:32.324Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.324Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.324Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.324Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.324Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.325Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.325Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.325Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.325Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.325Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.325Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.326Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.326Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.326Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.326Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.326Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.326Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.335Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.336Z] [INFO] [PIPELINE] Pipeline finished in 12ms — success=true
+[2026-06-01T12:08:32.336Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.336Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures\\nonexistent"}
+[2026-06-01T12:08:32.336Z] [WARN] [INGEST] Data directory does not exist: D:\1\daily-ai-insight-engine\tests\fixtures\nonexistent
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] Phase 1 complete: Loaded 0 raw item(s) from reader
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] Phase 2 complete: 0 valid, 0 skipped (of 0 total)
+[2026-06-01T12:08:32.336Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.336Z] [INFO] [PIPELINE] INGEST stage completed: 0 valid items
+[2026-06-01T12:08:32.336Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.336Z] [INFO] [EXTRACT] Starting EXTRACT batch: 0 item(s)
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] EXTRACT stage completed: 0/0 items extracted
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.337Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.337Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.337Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.337Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.337Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.337Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.339Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.339Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.339Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.339Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.339Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.339Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.339Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.340Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.340Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.340Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.340Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Remedial retry for gov-20260601-006: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Remedial extraction failed for gov-20260601-006 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Extraction failed for gov-20260601-006 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Remedial retry for zhihu-20260601-007: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Remedial retry for aw-20260601-008: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Remedial retry for verge-20260601-009: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Remedial extraction failed for zhihu-20260601-007 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Extraction failed for zhihu-20260601-007 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Remedial extraction failed for aw-20260601-008 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Extraction failed for aw-20260601-008 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Remedial extraction failed for verge-20260601-009 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Extraction failed for verge-20260601-009 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] Remedial retry for ga-20260601-010: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Remedial extraction failed for ga-20260601-010 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [ERROR] [EXTRACT] Extraction failed for ga-20260601-010 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.340Z] [INFO] [EXTRACT] EXTRACT batch complete: 5/10 extracted successfully
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] EXTRACT stage completed: 5/10 items extracted
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.340Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.340Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.340Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.340Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.340Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.340Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (5 events)
+[2026-06-01T12:08:32.341Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.341Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] Pipeline started (stage=extract, date=2026-06-01)
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.342Z] [INFO] [EXTRACT] Starting EXTRACT batch: 0 item(s)
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] EXTRACT stage completed: 0/0 items extracted
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.342Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.343Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.343Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.343Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.343Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.343Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.343Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.343Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.343Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.343Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.343Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=true
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] Pipeline started (stage=synthesize, date=2026-06-01)
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.344Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.345Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.345Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.345Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.345Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.345Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.345Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.345Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.346Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.346Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=true
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Pipeline started (stage=visualize, date=2026-06-01)
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.347Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.347Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.347Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.347Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.347Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Pipeline finished in 0ms — success=true
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.347Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.347Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.347Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.347Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.348Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.348Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.348Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.348Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.348Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.348Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.348Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.348Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.348Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.348Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.349Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.349Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.350Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.350Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.350Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.350Z] [ERROR] [PIPELINE] EXTRACT stage failed {"error":"Error: Mock LLM failure"}
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 0 event(s) in depth
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.350Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.351Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.351Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.351Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.351Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.351Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.351Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.351Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.351Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.351Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.352Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.352Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=false
+[2026-06-01T12:08:32.352Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.352Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.352Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.352Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.353Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.353Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.353Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.353Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.353Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for tc-20260601-001: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for ob-20260601-002: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for ka-20260601-003: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for tc-20260601-001 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for tc-20260601-001 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for ob-20260601-002 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for ob-20260601-002 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for ka-20260601-003 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for ka-20260601-003 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for hn-20260601-004: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for 36kr-20260601-005: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for gov-20260601-006: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for hn-20260601-004 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for hn-20260601-004 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for 36kr-20260601-005 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for 36kr-20260601-005 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for gov-20260601-006 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for gov-20260601-006 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for zhihu-20260601-007: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for aw-20260601-008: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for verge-20260601-009: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for zhihu-20260601-007 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for zhihu-20260601-007 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for aw-20260601-008 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for aw-20260601-008 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for verge-20260601-009 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for verge-20260601-009 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] Remedial retry for ga-20260601-010: confidence=0, reason=schema validation failed
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Remedial extraction failed for ga-20260601-010 {"reason":"parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [ERROR] [EXTRACT] Extraction failed for ga-20260601-010 {"reason":"initial parse or validation failed"}
+[2026-06-01T12:08:32.353Z] [INFO] [EXTRACT] EXTRACT batch complete: 0/10 extracted successfully
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] EXTRACT stage completed: 0/10 items extracted
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 0 event(s) in depth
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.353Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.354Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.354Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.354Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.354Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.354Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.354Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.354Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.354Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.354Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.355Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.355Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.356Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.356Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.356Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.356Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.356Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.356Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.356Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.356Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.356Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.356Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.357Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.357Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.357Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.357Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.357Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.357Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.357Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.358Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.358Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=true
+[2026-06-01T12:08:32.359Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.359Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.359Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.359Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.359Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.359Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.359Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.359Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.359Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.360Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.360Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.360Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.360Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.360Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.360Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.360Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.360Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.361Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.361Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=true
+[2026-06-01T12:08:32.361Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.361Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.361Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.361Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.362Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.362Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.362Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.362Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.362Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.362Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.362Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.362Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.362Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.362Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.362Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.362Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.363Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.364Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.364Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.364Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.364Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.364Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.364Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.364Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.364Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.364Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.365Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.365Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Processing batch 1/5 (2 item(s))
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Processing batch 2/5 (2 item(s))
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Processing batch 3/5 (2 item(s))
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Processing batch 4/5 (2 item(s))
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] Processing batch 5/5 (2 item(s))
+[2026-06-01T12:08:32.365Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.365Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.365Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.365Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.365Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.365Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (10 events)
+[2026-06-01T12:08:32.365Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.366Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-15)
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.367Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.367Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.367Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.367Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.368Z] [INFO] [EXTRACT] Processing batch 2/4 (3 item(s))
+[2026-06-01T12:08:32.368Z] [INFO] [EXTRACT] Processing batch 3/4 (3 item(s))
+[2026-06-01T12:08:32.368Z] [INFO] [EXTRACT] Processing batch 4/4 (1 item(s))
+[2026-06-01T12:08:32.368Z] [INFO] [EXTRACT] EXTRACT batch complete: 10/10 extracted successfully
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] EXTRACT stage completed: 10/10 items extracted
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.368Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-15
+[2026-06-01T12:08:32.368Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-15 (topN=10)
+[2026-06-01T12:08:32.368Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-15
+[2026-06-01T12:08:32.368Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-15
+[2026-06-01T12:08:32.368Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-15 (10 events)
+[2026-06-01T12:08:32.368Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.369Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-15/report.md
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-15/assets/
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] Pipeline finished in 3ms — success=true
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] Pipeline started (stage=synthesize, date=2026-06-01)
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 3 event(s) in depth
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.370Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.370Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.370Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.370Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.370Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.370Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.371Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=true
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] Pipeline started (stage=synthesize, date=2026-06-01)
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 0 event(s) in depth
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.372Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.373Z] [ERROR] [PIPELINE] SYNTHESIZE stage failed {"error":"TypeError: Cannot read properties of undefined (reading 'trend')"}
+[2026-06-01T12:08:32.373Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.373Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.373Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.373Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.373Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.373Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.373Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.373Z] [INFO] [PIPELINE] Pipeline finished in 1ms — success=false
+[2026-06-01T12:08:32.373Z] [INFO] [PIPELINE] Pipeline started (stage=ingest, date=2026-06-01)
+[2026-06-01T12:08:32.373Z] [INFO] [PIPELINE] Starting INGEST stage
+[2026-06-01T12:08:32.373Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.373Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\pipeline\\.pipeline-test-data"}
+[2026-06-01T12:08:32.374Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.374Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.374Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.374Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.374Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] INGEST stage completed: 10 valid items
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] Starting EXTRACT stage
+[2026-06-01T12:08:32.374Z] [INFO] [EXTRACT] Starting EXTRACT batch: 10 item(s)
+[2026-06-01T12:08:32.374Z] [INFO] [EXTRACT] Processing batch 1/4 (3 item(s))
+[2026-06-01T12:08:32.374Z] [ERROR] [PIPELINE] EXTRACT stage failed {"error":"Error: Network error"}
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] Starting SYNTHESIZE stage
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase A: Aggregating statistics
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase B: Identifying top events
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase C: Analyzing 0 event(s) in depth
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase D: Analyzing trends
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase E: Identifying risks and opportunities
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE Phase F: Building report
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] SYNTHESIZE stage completed
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] Starting VISUALIZE stage
+[2026-06-01T12:08:32.374Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.374Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.374Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.374Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.374Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] VISUALIZE stage completed
+[2026-06-01T12:08:32.374Z] [INFO] [PIPELINE] Report saved to data/reports/2026-06-01/report.md
+[2026-06-01T12:08:32.375Z] [INFO] [PIPELINE] Charts saved to data/reports/2026-06-01/assets/
+[2026-06-01T12:08:32.375Z] [INFO] [PIPELINE] Pipeline finished in 2ms — success=false
+[2026-06-01T12:08:32.648Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.648Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.648Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.648Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.648Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.649Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.649Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.651Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.651Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.651Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.651Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.651Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.652Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.652Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.653Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.653Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.653Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.653Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.653Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.654Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.654Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.654Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.655Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"C:\\Users\\Antid\\AppData\\Local\\Temp\\pipeline-test-4kkv3B"}
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Loaded 0 raw items from 1 file(s)
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Phase 1 complete: Loaded 0 raw item(s) from reader
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] Phase 2 complete: 0 valid, 0 skipped (of 0 total)
+[2026-06-01T12:08:32.657Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"C:\\Users\\Antid\\AppData\\Local\\Temp\\pipeline-test-9BSCAh"}
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Loaded 10 raw items from 1 file(s)
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Phase 1 complete: Loaded 10 raw item(s) from reader
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] Phase 2 complete: 10 valid, 0 skipped (of 10 total)
+[2026-06-01T12:08:32.658Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.659Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.659Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.660Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.660Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.660Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.660Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.660Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.661Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.662Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.662Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"D:\\1\\daily-ai-insight-engine\\tests\\fixtures"}
+[2026-06-01T12:08:32.662Z] [INFO] [INGEST] Loaded 36 raw items from 6 file(s)
+[2026-06-01T12:08:32.662Z] [INFO] [INGEST] Phase 1 complete: Loaded 36 raw item(s) from reader
+[2026-06-01T12:08:32.662Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.663Z] [INFO] [INGEST] Phase 2 complete: 22 valid, 14 skipped (of 36 total)
+[2026-06-01T12:08:32.663Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"C:\\Users\\Antid\\AppData\\Local\\Temp\\pipeline-test-KOyvKj\\does-not-exist"}
+[2026-06-01T12:08:32.664Z] [WARN] [INGEST] Data directory does not exist: C:\Users\Antid\AppData\Local\Temp\pipeline-test-KOyvKj\does-not-exist
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] Phase 1 complete: Loaded 0 raw item(s) from reader
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] Phase 2 complete: 0 valid, 0 skipped (of 0 total)
+[2026-06-01T12:08:32.664Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Starting INGEST pipeline
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Phase 1: Reading news files {"dataDir":"C:\\Users\\Antid\\AppData\\Local\\Temp\\pipeline-test-Qfvx2w"}
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Loaded 1 raw items from 1 file(s)
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Phase 1 complete: Loaded 1 raw item(s) from reader
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Phase 2: Validating and cleaning data
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Phase 2 complete: 1 valid, 0 skipped (of 1 total)
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] INGEST pipeline finished successfully
+[2026-06-01T12:08:32.665Z] [INFO] [INGEST] Loaded 1 raw items from 1 file(s)
+[2026-06-01T12:08:32.718Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.718Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.719Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.719Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.719Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.720Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.720Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.720Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.720Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=5)
+[2026-06-01T12:08:32.721Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.721Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.721Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.721Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.722Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.722Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.722Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.722Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.722Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (1 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (3 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (3 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (2 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (0 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (1 events)
+[2026-06-01T12:08:32.723Z] [INFO] [VISUALIZE] Generating Mermaid entity graph (1 edges)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating Mermaid entity graph (1 edges)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating Mermaid entity graph (1 edges)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating Mermaid entity graph (1 edges)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating Mermaid entity graph (0 edges)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.724Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (3 events)
+[2026-06-01T12:08:32.725Z] [INFO] [VISUALIZE] generateAllCharts invoked for 2026-06-01
+[2026-06-01T12:08:32.725Z] [INFO] [VISUALIZE] Generating topic bar chart for 2026-06-01 (topN=10)
+[2026-06-01T12:08:32.725Z] [INFO] [VISUALIZE] Generating sentiment donut for 2026-06-01
+[2026-06-01T12:08:32.725Z] [INFO] [VISUALIZE] Generating trend radar for 2026-06-01
+[2026-06-01T12:08:32.725Z] [INFO] [VISUALIZE] Generating Mermaid timeline for 2026-06-01 (3 events)
+[2026-06-01T12:08:32.752Z] [INFO] [INGEST] Loaded 2 raw items from 2 file(s)
+[2026-06-01T12:08:32.753Z] [WARN] [INGEST] No .json files found in data directory: C:\Users\Antid\AppData\Local\Temp\reader-test-ldLMlC
+[2026-06-01T12:08:32.753Z] [WARN] [INGEST] Skipping file C:\Users\Antid\AppData\Local\Temp\reader-test-g67PaA\bad.json due to error {"error":"SyntaxError: Unexpected token 'o', \"not valid json\" is not valid JSON"}
+[2026-06-01T12:08:32.753Z] [INFO] [INGEST] Loaded 0 raw items from 1 file(s)
+[2026-06-01T12:08:32.756Z] [WARN] [INGEST] Data directory does not exist: C:\Users\Antid\AppData\Local\Temp\reader-test-amWTTh\does-not-exist
+
+Test Suites: 13 passed, 13 total
+Tests:       262 passed, 262 total
+Snapshots:   0 total
+Time:        1.341 s
+Ran all test suites.
