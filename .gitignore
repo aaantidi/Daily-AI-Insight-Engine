@@ -4,5 +4,4 @@ coverage/
 .DS_Store
 Thumbs.db
 .env
-data/reports/
 .claude/runtime/

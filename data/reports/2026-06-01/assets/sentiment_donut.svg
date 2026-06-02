@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }
+    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }
+    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }
+    .axis { stroke: #D1D5DB; stroke-width: 2; }
+  </style>
+  <text class="title" x="300" y="40" text-anchor="middle">情感分布 — 2026-06-01</text>
+  <path d="M 300.00 130.00 A 120 120 0 1 1 262.92 135.87 L 281.46 192.94 A 60 60 0 1 0 300.00 190.00 Z" fill="#059669" />
+  <path d="M 262.92 135.87 A 120 120 0 0 1 300.00 130.00 L 300.00 190.00 A 60 60 0 0 0 281.46 192.94 Z" fill="#6B7280" />
+  <text class="value" x="300" y="242" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">N=20</text>
+  <text class="note" x="300" y="262" text-anchor="middle" font-size="12">条</text>
+  <rect x="430" y="150" width="12" height="12" rx="2" fill="#059669" />
+  <text class="label" x="450" y="160">正面 (19)</text>
+  <rect x="430" y="180" width="12" height="12" rx="2" fill="#6B7280" />
+  <text class="label" x="450" y="190">中性 (1)</text>
+  <rect x="430" y="210" width="12" height="12" rx="2" fill="#DC2626" />
+  <text class="label" x="450" y="220">负面 (0)</text>
+  <text class="note" x="300" y="480" text-anchor="middle">数据来源: Daily AI Insight Engine — 2026-06-01</text>
+</svg>

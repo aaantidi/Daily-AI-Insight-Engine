@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }
+    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }
+    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }
+    .axis { stroke: #D1D5DB; stroke-width: 2; }
+  </style>
+  <text class="title" x="300" y="40" text-anchor="middle">四维趋势雷达 — 2026-06-15</text>
+  <polygon class="grid" points="300.0,250.0 350.0,300.0 300.0,350.0 250.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,200.0 400.0,300.0 300.0,400.0 200.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,150.0 450.0,300.0 300.0,450.0 150.0,300.0" fill="none" />
+  <polygon class="grid" points="300.0,100.0 500.0,300.0 300.0,500.0 100.0,300.0" fill="none" />
+  <line class="axis" x1="300" y1="300" x2="300.0" y2="100.0" />
+  <line class="axis" x1="300" y1="300" x2="500.0" y2="300.0" />
+  <line class="axis" x1="300" y1="300" x2="300.0" y2="500.0" />
+  <line class="axis" x1="300" y1="300" x2="100.0" y2="300.0" />
+  <text class="label" x="300.0" y="80.0" text-anchor="middle" font-weight="bold" font-size="14">技术</text>
+  <text class="label" x="520.0" y="300.0" text-anchor="start" font-weight="bold" font-size="14">应用</text>
+  <text class="label" x="300.0" y="520.0" text-anchor="middle" font-weight="bold" font-size="14">政策</text>
+  <text class="label" x="80.0" y="300.0" text-anchor="end" font-weight="bold" font-size="14">资本</text>
+  <polygon points="300.0,130.0 460.0,300.0 300.0,450.0 160.0,300.0" fill="rgba(59, 130, 246, 0.2)" stroke="#3B82F6" stroke-width="2" />
+  <text class="value" x="300.0" y="118.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#3B82F6">0.85</text>
+  <text class="value" x="472.0" y="300.0" text-anchor="start" font-size="13" font-weight="bold" fill="#3B82F6">0.80</text>
+  <text class="value" x="300.0" y="462.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#3B82F6">0.75</text>
+  <text class="value" x="148.0" y="300.0" text-anchor="end" font-size="13" font-weight="bold" fill="#3B82F6">0.70</text>
+  <text class="note" x="300" y="580" text-anchor="middle">数据来源: Daily AI Insight Engine — 2026-06-15</text>
+</svg>

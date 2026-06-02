@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 18px; font-weight: bold; fill: #111827; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #374151; }
+    .value { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; fill: #6B7280; }
+    .note { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .grid { stroke: #E5E7EB; stroke-width: 1; stroke-dasharray: 4 4; }
+    .axis { stroke: #D1D5DB; stroke-width: 2; }
+  </style>
+  <text class="title" x="400" y="40" text-anchor="middle">情感分布 — 2026-06-02</text>
+  <text class="value" x="400" y="250" text-anchor="middle">暂无情感数据</text>
+  <text class="note" x="400" y="480" text-anchor="middle">数据来源: Daily AI Insight Engine — 2026-06-02</text>
+</svg>
