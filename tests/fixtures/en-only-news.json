@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tc-20260601-001",
+    "title": "Anthropic Raises $5 Billion for Next-Generation AI Development",
+    "content": "Anthropic has secured 5 billion dollars in new funding to accelerate the development of its next-generation AI models. The funding round was led by existing investors and includes strategic partnerships with major cloud providers. The company plans to use the capital to expand its research team, scale computing infrastructure, and bring new safety-focused products to market. This is one of the largest private AI funding rounds in history.",
+    "source": {
+      "name": "TechCrunch",
+      "type": "tech_media",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-funding-round"
+    },
+    "published_at": "2026-06-01T08:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "reuters-20260601-002",
+    "title": "NVIDIA Unveils Next-Gen AI Chip with 2x Performance Improvement",
+    "content": "NVIDIA today announced its next-generation AI accelerator chip, claiming a two-fold performance improvement over the previous generation for large language model training and inference. The new chip features improved memory bandwidth, enhanced sparse computation support, and a novel interconnect architecture that enables efficient scaling to thousands of chips. Early customers include major cloud providers and AI research labs.",
+    "source": {
+      "name": "Reuters",
+      "type": "tech_media",
+      "url": "https://www.reuters.com/technology/nvidia-next-gen-ai-chip-2026-06-01"
+    },
+    "published_at": "2026-06-01T09:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "github-20260601-003",
+    "title": "GitHub Launches AI-Powered Code Review Assistant for Pull Requests",
+    "content": "GitHub has released a new AI-powered code review assistant that automatically analyzes pull requests for potential bugs, security vulnerabilities, and style violations. The tool integrates directly into the GitHub workflow and provides inline suggestions similar to human reviewers. During beta testing, it detected 30% more critical bugs than traditional static analysis tools while reducing false positive rates significantly.",
+    "source": {
+      "name": "GitHub Blog",
+      "type": "official",
+      "url": "https://github.blog/2026-06-01/ai-code-review-assistant"
+    },
+    "published_at": "2026-06-01T15:00:00Z",
+    "language": "en"
+  },
+  {
+    "id": "rd-20260601-004",
+    "title": "Study Finds AI-Assisted Programming Boosts Developer Productivity by 40%",
+    "content": "A comprehensive study published by Microsoft Research found that AI-assisted programming tools increase developer productivity by an average of 40 percent across a range of tasks. The study tracked over 500 professional developers over six months, measuring task completion time, code quality, and developer satisfaction. Notably, the productivity gains were most significant for junior developers, while senior developers saw more modest improvements in speed but better code quality.",
+    "source": {
+      "name": "Research Daily",
+      "type": "aggregator",
+      "url": "https://researchdaily.com/ai-programming-productivity-study-2026"
+    },
+    "published_at": "2026-06-01T10:30:00Z",
+    "language": "en"
+  },
+  {
+    "id": "zd-20260601-005",
+    "title": "Meta Open-Sources New AI Model for Real-Time Language Translation",
+    "content": "Meta has open-sourced a new AI model capable of real-time speech-to-speech translation across 200 languages with near-human accuracy. The model, trained on a massive corpus of multilingual speech data, can preserve speaker tone, emotion, and prosody in the translated output. Meta claims the model achieves a BLEU score improvement of 15 points over the previous state-of-the-art. The model weights and training code are available on GitHub under a permissive license.",
+    "source": {
+      "name": "ZDNet",
+      "type": "tech_media",
+      "url": "https://www.zdnet.com/article/meta-open-source-real-time-translation-model"
+    },
+    "published_at": "2026-06-01T11:00:00Z",
+    "language": "en"
+  }
+]

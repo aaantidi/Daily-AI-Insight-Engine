@@ -13,7 +13,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": ".",
-    "types": ["jest"],
+    "types": ["jest", "node"],
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true
   },

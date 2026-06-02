@@ -1,10 +1,7 @@
 node_modules/
 dist/
 coverage/
-.specs/
-.claude/hooks/
-.claude/workflows/
-.claude/runtime/
-*.log
 .DS_Store
 Thumbs.db
+.env
+data/reports/

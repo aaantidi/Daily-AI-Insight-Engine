@@ -1,0 +1,378 @@
+// =============================================================================
+// HtmlBuilder — 将 DailyReport + GeneratedCharts 打包为自包含 HTML
+// =============================================================================
+
+import { DailyReport } from '../schema/types';
+import { GeneratedCharts } from './index';
+
+const MEDALS = ['🥇', '🥈', '🥉'];
+
+export class HtmlBuilder {
+  /**
+   * Build a self-contained HTML page from the report and chart data.
+   */
+  buildHtml(report: DailyReport, charts: GeneratedCharts, date: string): string {
+    const dashboardHtml = this.buildDashboard(report);
+    const topEventsHtml = this.buildTopEvents(report);
+    const sentimentChartHtml = this.buildSentimentChart(charts);
+    const trendRadarHtml = this.buildTrendRadar(charts);
+    const deepAnalysisHtml = this.buildDeepAnalyses(report);
+    const trendGridHtml = this.buildTrendGrid(report);
+    const riskOpportunityHtml = this.buildRiskOpportunity(report);
+    const appendixHtml = this.buildAppendix(report);
+
+    return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 分析日报 — ${this.escapeHtml(date)}</title>
+  <style>
+    /* 全局样式 */
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 960px; margin: 0 auto; padding: 20px; color: #1a1a2e; background: #f8f9fa; }
+    h1 { font-size: 2em; border-bottom: 3px solid #3B82F6; padding-bottom: 10px; }
+    h2 { font-size: 1.5em; color: #1e40af; margin-top: 30px; border-bottom: 1px solid #e5e7eb; }
+    h3 { color: #374151; }
+
+    /* 概览面板 */
+    .dashboard { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 20px 0; }
+    .dash-card { background: white; border-radius: 8px; padding: 16px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .dash-card .num { font-size: 2em; font-weight: bold; color: #3B82F6; }
+    .dash-card .label { font-size: 0.85em; color: #6B7280; }
+
+    /* Top 3 焦点事件卡片 */
+    .top-event { background: white; border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-left: 4px solid #3B82F6; }
+    .top-event.rank-1 { border-left-color: #F59E0B; }
+    .top-event.rank-2 { border-left-color: #9CA3AF; }
+    .top-event.rank-3 { border-left-color: #D97706; }
+    .top-event .rank { font-size: 1.5em; font-weight: bold; }
+    .top-event .sig { display: inline-block; background: #3B82F6; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+    .top-event .meta { color: #6B7280; font-size: 0.9em; }
+
+    /* 图表容器 */
+    .chart-container { background: white; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .chart-container svg { max-width: 100%; height: auto; }
+    .chart-container h3 { text-align: left; }
+
+    /* 趋势卡片 */
+    .trend-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 16px 0; }
+    .trend-card { background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .trend-card .dim { font-weight: bold; color: #1e40af; }
+    .trend-card .conf { display: inline-block; background: #059669; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
+
+    /* 深度分析 */
+    .deep-analysis { background: white; border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+    /* 风险/机会 */
+    .risk-high { border-left: 4px solid #DC2626; padding: 8px 16px; margin: 8px 0; background: #FEF2F2; border-radius: 4px; }
+    .opportunity { border-left: 4px solid #059669; padding: 8px 16px; margin: 8px 0; background: #ECFDF5; border-radius: 4px; }
+
+    /* 附录表格 */
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; background: white; border-radius: 8px; overflow: hidden; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    th { background: #F3F4F6; font-weight: 600; }
+
+    /* 页脚 */
+    .footer { text-align: center; color: #9CA3AF; font-size: 0.85em; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e7eb; }
+  </style>
+</head>
+<body>
+  <h1>🤖 AI 分析日报 — ${this.escapeHtml(date)}</h1>
+
+  <!-- 概览面板 -->
+  ${dashboardHtml}
+
+  <!-- Top 3 焦点事件 -->
+  <h2>🔥 Top 3 焦点事件</h2>
+  ${topEventsHtml}
+
+  <!-- 图表: 情感分布 -->
+  <div class="chart-container">
+    <h3>情感分布</h3>
+    ${sentimentChartHtml}
+  </div>
+
+  <!-- 图表: 趋势雷达 -->
+  <div class="chart-container">
+    <h3>四维趋势</h3>
+    ${trendRadarHtml}
+  </div>
+
+  <!-- 深度分析 -->
+  <h2>📝 深度分析</h2>
+  ${deepAnalysisHtml}
+
+  <!-- 趋势推演 -->
+  <h2>📈 趋势推演</h2>
+  <div class="trend-grid">
+    ${trendGridHtml}
+  </div>
+  <p><strong>整体叙事:</strong> ${this.escapeHtml(report.trend_analysis.overall_narrative)}</p>
+
+  <!-- 风险与机会 -->
+  <h2>⚠️ 风险与机会</h2>
+  ${riskOpportunityHtml}
+
+  <!-- 附录: 数据索引 -->
+  <h2>📎 附录: 数据索引</h2>
+  ${appendixHtml}
+
+  <div class="footer">
+    <p>Generated by Daily AI Insight Engine — ${this.escapeHtml(date)}</p>
+    <p>数据来源: 科技媒体、官方渠道、聚合平台 | 分析由 AI 辅助生成，仅供参考</p>
+  </div>
+
+</body>
+</html>`;
+  }
+
+  // ===========================================================================
+  // Private section builders
+  // ===========================================================================
+
+  private buildDashboard(report: DailyReport): string {
+    const dash = report.dashboard;
+    const sd = dash.sentiment_distribution;
+    const positive = sd.positive ?? 0;
+    const neutral = sd.neutral ?? 0;
+    const negative = sd.negative ?? 0;
+
+    return `
+    <div class="dashboard">
+      <div class="dash-card"><div class="num">${dash.total_items}</div><div class="label">处理新闻</div></div>
+      <div class="dash-card"><div class="num">${positive}+${neutral}+${negative}</div><div class="label">情感分布 (正/中/负)</div></div>
+      <div class="dash-card"><div class="num">${dash.risk_count}</div><div class="label">风险条目</div></div>
+      <div class="dash-card"><div class="num">${dash.top_topics.length}</div><div class="label">话题覆盖</div></div>
+    </div>`;
+  }
+
+  private buildTopEvents(report: DailyReport): string {
+    const events = report.top_events;
+    if (!events || events.length === 0) {
+      return '<p>暂无焦点事件数据</p>';
+    }
+
+    return events
+      .map((evt, i) => {
+        const rank = i + 1;
+        const medal = i < MEDALS.length ? MEDALS[i] : `#${rank}`;
+        const entities = evt.key_entities?.length > 0 ? evt.key_entities.join(', ') : '无';
+
+        return `
+    <div class="top-event rank-${rank}">
+      <div class="rank">${medal} ${this.escapeHtml(evt.title)}</div>
+      <span class="sig">重要性: ${evt.significance}/10</span>
+      <div class="meta">关联实体: ${this.escapeHtml(entities)}</div>
+      <p>${this.escapeHtml(evt.why_important)}</p>
+    </div>`;
+      })
+      .join('');
+  }
+
+  private buildSentimentChart(charts: GeneratedCharts): string {
+    return charts.sentimentDonut || '<!-- 无情感分布图表 -->';
+  }
+
+  private buildTrendRadar(charts: GeneratedCharts): string {
+    return charts.trendRadar || '<!-- 无趋势雷达图表 -->';
+  }
+
+  private buildDeepAnalyses(report: DailyReport): string {
+    const analyses = report.deep_analyses;
+    if (!analyses || analyses.length === 0) {
+      return '<p>暂无深度分析数据</p>';
+    }
+
+    return analyses
+      .map((da) => {
+        const developments = da.key_developments?.length > 0
+          ? `<ul>${da.key_developments.map((d) => `<li>${this.escapeHtml(d)}</li>`).join('')}</ul>`
+          : '';
+
+        const affectedParties = da.impact_analysis.affected_parties?.length > 0
+          ? `<p><strong>影响方:</strong> ${this.escapeHtml(da.impact_analysis.affected_parties.join(', '))}</p>`
+          : '';
+
+        const relatedEvents = da.related_events?.length > 0
+          ? `<p><strong>相关事件:</strong> ${this.escapeHtml(da.related_events.join('; '))}</p>`
+          : '';
+
+        const refs = da.references?.length > 0
+          ? (() => {
+              const refIndex = report.references_index;
+              if (!refIndex || refIndex.length === 0) return '';
+              const resolved = da.references
+                .map((refId) => {
+                  const id = refId.replace(/^ref:\s*/i, '').trim();
+                  const found = refIndex.find((r) => r.id === id);
+                  if (found && found.source_url && found.source_url !== '#') {
+                    return `<a href="${this.escapeHtml(found.source_url)}" target="_blank" rel="noopener">${this.escapeHtml(found.source_name || found.title)}</a>`;
+                  } else if (found) {
+                    return this.escapeHtml(found.source_name || found.title);
+                  }
+                  return this.escapeHtml(refId);
+                })
+                .filter(Boolean);
+              return resolved.length > 0
+                ? `<p><strong>参考来源:</strong> ${resolved.join('; ')}</p>`
+                : '';
+            })()
+          : '';
+
+        return `
+    <div class="deep-analysis">
+      <h3>${this.escapeHtml(da.event_title)}</h3>
+      <p><strong>背景:</strong> ${this.escapeHtml(da.background)}</p>
+      <p><strong>短期影响:</strong> ${this.escapeHtml(da.impact_analysis.short_term)}</p>
+      <p><strong>中期影响:</strong> ${this.escapeHtml(da.impact_analysis.medium_term)}</p>
+      ${affectedParties}
+      ${developments}
+      ${relatedEvents}
+      <p><strong>专家观点:</strong> ${this.escapeHtml(da.expert_perspective)}</p>
+      ${refs}
+    </div>`;
+      })
+      .join('');
+  }
+
+  private buildTrendGrid(report: DailyReport): string {
+    const trends = report.trend_analysis;
+    const dims: Array<{ key: string; label: string }> = [
+      { key: 'technology', label: '技术' },
+      { key: 'application', label: '应用' },
+      { key: 'policy', label: '政策' },
+      { key: 'capital', label: '资本' },
+    ];
+
+    return dims
+      .map((dim) => {
+        const td = (trends as any)[dim.key] as { trend: string; confidence: number; signals: string[] } | undefined;
+        if (!td || !td.trend) {
+          return `
+    <div class="trend-card">
+      <div class="dim">${dim.label}</div>
+      <p>暂无趋势数据</p>
+    </div>`;
+        }
+
+        const signals = td.signals?.length > 0
+          ? `<ul>${td.signals.map((s) => `<li>${this.escapeHtml(s)}</li>`).join('')}</ul>`
+          : '';
+
+        const confPct = Math.round(td.confidence * 100);
+
+        return `
+    <div class="trend-card">
+      <div class="dim">${dim.label}</div>
+      <span class="conf">可信度: ${confPct}%</span>
+      <p>${this.escapeHtml(td.trend)}</p>
+      ${signals}
+    </div>`;
+      })
+      .join('');
+  }
+
+  private buildRiskOpportunity(report: DailyReport): string {
+    const ro = report.risk_opportunity;
+    let html = '';
+
+    // Risks
+    if (ro.risks && ro.risks.length > 0) {
+      html += '<h3>风险</h3>';
+      html += ro.risks
+        .map((r) => {
+          const levelClass = r.level === 'high' || r.level === 'critical' ? 'risk-high' : '';
+          return `
+    <div class="${levelClass}" style="border-left: 4px solid ${r.level === 'critical' ? '#DC2626' : r.level === 'high' ? '#F59E0B' : '#9CA3AF'}; padding: 8px 16px; margin: 8px 0; background: #FEF2F2; border-radius: 4px;">
+      <strong>[${r.level.toUpperCase()}]</strong> ${this.escapeHtml(r.description)}
+      <br><small>概率: ${this.translateProb(r.probability)} | 类型: ${this.translateRiskType(r.type)} | 建议: ${this.escapeHtml(r.suggested_action)}</small>
+    </div>`;
+        })
+        .join('');
+    } else {
+      html += '<p>暂无风险数据</p>';
+    }
+
+    // Opportunities
+    if (ro.opportunities && ro.opportunities.length > 0) {
+      html += '<h3>机会</h3>';
+      html += ro.opportunities
+        .map((o) => {
+          return `
+    <div class="opportunity">
+      <strong>${this.escapeHtml(o.description)}</strong>
+      <br><small>类别: ${this.translateOppCategory(o.category)} | 时间窗口: ${this.translateTimeWindow(o.time_window)} | 依据: ${this.escapeHtml(o.rationale)}</small>
+    </div>`;
+        })
+        .join('');
+    } else {
+      html += '<p>暂无机会数据</p>';
+    }
+
+    return html;
+  }
+
+  private buildAppendix(report: DailyReport): string {
+    const refs = report.references_index;
+    if (!refs || refs.length === 0) {
+      return '<p>暂无引用数据</p>';
+    }
+
+    const rows = refs
+      .map((ref) => {
+        const sourceLink = ref.source_url && ref.source_url !== '#'
+          ? `<a href="${this.escapeHtml(ref.source_url)}" target="_blank" rel="noopener">${this.escapeHtml(ref.source_name)}</a>`
+          : this.escapeHtml(ref.source_name || '未知来源');
+
+        return `
+    <tr>
+      <td>${this.escapeHtml(ref.title)}</td>
+      <td>${sourceLink}</td>
+    </tr>`;
+      })
+      .join('');
+
+    return `
+    <table>
+      <thead>
+        <tr><th>标题</th><th>来源</th></tr>
+      </thead>
+      <tbody>
+        ${rows}
+      </tbody>
+    </table>`;
+  }
+
+  // ===========================================================================
+  // Helpers
+  // ===========================================================================
+
+  private translateProb(p: string): string {
+    const map: Record<string, string> = { low: '低', medium: '中', high: '高' };
+    return map[p] || p;
+  }
+
+  private translateRiskType(t: string): string {
+    const map: Record<string, string> = { quantifiable: '可量化', systemic: '系统性' };
+    return map[t] || t;
+  }
+
+  private translateOppCategory(c: string): string {
+    const map: Record<string, string> = { technology: '技术', business: '商业', policy: '政策' };
+    return map[c] || c;
+  }
+
+  private translateTimeWindow(tw: string): string {
+    const map: Record<string, string> = { immediate: '短期', short_term: '短期', medium_term: '中期', long_term: '长期' };
+    return map[tw] || tw;
+  }
+
+  private escapeHtml(str: string): string {
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+}

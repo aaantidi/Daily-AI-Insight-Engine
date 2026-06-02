@@ -3,12 +3,23 @@
     "PreToolUse": [
       {
         "matcher": "Edit|Write",
-        "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/pre-tool.sh\""
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/pre-tool.sh\""
+          }
+        ]
       }
     ],
     "Stop": [
       {
-        "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/signal-writer.sh\""
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/signal-writer.sh\""
+          }
+        ]
       }
     ]
   }
